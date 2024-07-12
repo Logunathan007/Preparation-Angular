@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+
+$btn-font-size:20px;
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box{
+  width: 350px;
+  height: fit-content;
+  border-radius: 5px;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 10px skyblue;
+}
+label{
+  font-weight: 600;
+  margin-top: 20px !important;
+}
+h2{
+  text-align: center;
+  margin-bottom: 10px;
+}
+#loginbtn{
+  font-size: $btn-font-size;
+}
+
+.notification{
+  transition: all 3s linear;
+  position: absolute;
+  top:10px;
+  right:10px;
+}
+
+alert svg{
+  width: 30px;
+  height: 30px;
+}
+
+
+

@@ -1,0 +1,40 @@
+<form class="container-fluid mw-50 box" [formGroup]="formGroup" (submit)="validate()">
+  <h2>Register Form</h2>
+
+  <div class="form-group row col-10 mx-auto">
+    <label for="userid">Enter Username or Email</label>
+    <input type="text" class="form-control" placeholder="User Id ..." formControlName="username">
+    <div class="errormsg text-danger col-10" *ngIf="!UserNameObj?.valid && (UserNameObj?.touched || UserNameObj?.dirty)">
+      <span class="col-10" *ngIf="UserNameObj?.errors?.['required']" > UserId is required </span>
+    </div>
+  </div>
+  <div class="form-group row col-10 mx-auto">
+    <label for="password">Enter your password</label>
+    <input type="password" class="form-control" placeholder="Password" formControlName="password">
+    <div class="errormsg text-danger col-10" *ngIf="!PasswordObj?.valid && (PasswordObj?.touched || PasswordObj?.dirty)">
+      <span class="col-10" *ngIf="PasswordObj?.errors?.['required']" > Password is required </span>
+      <span class="col-10" *ngIf="PasswordObj?.errors?.['minlength']" > Minimum length is 8 </span>
+    </div>
+  </div>
+  <div class="form-group row col-10 mx-auto">
+    <label for="cpassword">Reenter your password</label>
+    <input type="password" class="form-control" placeholder="Password" formControlName="cpassword">
+    <div class="errormsg text-danger col-10" *ngIf="!ConfirmPasswordObj?.valid && (ConfirmPasswordObj?.touched || ConfirmPasswordObj?.dirty)">
+      <span class="col-10" *ngIf="ConfirmPasswordObj?.errors?.['required']" > Password is required </span>
+    </div>
+    <span class="col-10 text-danger" *ngIf="ConfirmPasswordObj?.dirty && ConfirmPasswordObj?.value !== PasswordObj?.value" > Password is not match</span>
+  </div>
+  <div class="row mt-4">
+    <div class="col-10 mx-auto">
+      <button class="btn bg-info col-12 py-1" [disabled]="formGroup.invalid || ConfirmPasswordObj?.value === '' || ConfirmPasswordObj?.value !== PasswordObj?.value" id="loginbtn" type="submit">Register</button>
+    </div>
+  </div>
+  <div class="row my-4">
+    <div class="col-8 mx-auto">
+      If you registered click,<a class="ps-3" [routerLink]="['']">Login</a>
+    </div>
+  </div>
+</form>
+
+
+
