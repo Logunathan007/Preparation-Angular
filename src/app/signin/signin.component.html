@@ -27,8 +27,7 @@
   </div>
 </form>
 <div class="msssg" *ngIf="first">
-  <app-notification *ngIf="fl" [alerts]="success"></app-notification>
-  <app-notification *ngIf="!fl" [alerts]="failed"></app-notification>
+  <app-notification *ngIf="fl" [alerts]="msgFormat"></app-notification>
 </div>
 
 

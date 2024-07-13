@@ -10,20 +10,24 @@ import { ConnectionService } from '../services/connection.service';
 export class SignupComponent {
 
   fl = false;
+  first = false;
+  msg = ""
+  msgFormat = {}
 
   constructor(private cs:ConnectionService){
-    this.cs.signup$.subscribe((data:boolean)=>{
-      this.fl = data;
+    this.cs.signup$.subscribe((data:string)=>{
+      this.msg = data;
+      this.fl = true;
+      setTimeout(()=>{
+        this.fl = false;
+      },5000)
+      this.msgFormat = {
+        type: (this.msg.charAt(0) === 's')?'info':'danger',
+        msg: this.msg.substring(2)
+      }
     })
   }
-  success ={
-    type: 'info',
-    msg: `You data successfully Stored`
-  }
-  failed = {
-    type: 'danger',
-    msg: `UserId already used.`
-  }
+
 
   formGroup = new FormGroup({
     username:new FormControl('',Validators.required),
@@ -33,6 +37,7 @@ export class SignupComponent {
   validate(){
     if(this.formGroup.invalid) return;
     this.cs.signupValidate('user_data',this.UserNameObj?.value,this.PasswordObj?.value)
+    this.first = true;
   }
   get UserNameObj(){
     return this.formGroup.get('username')

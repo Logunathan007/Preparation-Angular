@@ -9,27 +9,27 @@ import { ConnectionService } from '../services/connection.service';
 })
 export class SigninComponent {
 
-  fl = false;
+  msg:string = "";
+  fl = false
   first = false;
-
+  msgFormat = {};
   constructor(private cs:ConnectionService){
-    this.cs.login$.subscribe((data:boolean)=>{
+    this.cs.login$.subscribe((data:string)=>{
       this.first = true;
-      this.fl = data;
-      if(!data){
+      this.msg = data;
+      this.fl = true;
+      if(this.msg.charAt(0) === 's'){
         this.UserNameObj?.setValue('')
         this.PasswordObj?.setValue('')
       }
+      setTimeout(()=>{
+        this.fl = false;
+      },5000)
+      this.msgFormat = {
+        type: (this.msg?.charAt(0) === 's')?'info':'danger',
+        msg: this.msg?.substring(2)
+      }
     })
-  }
-
-  success ={
-    type: 'info',
-    msg: `You successfully Login`
-  }
-  failed = {
-    type: 'danger',
-    msg: `Check your Username and Password`
   }
   formGroup = new FormGroup({
     username:new FormControl('',Validators.required),
