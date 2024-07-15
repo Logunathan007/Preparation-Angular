@@ -5,7 +5,6 @@ $btn-font-size:20px;
   padding: 0px ;
   box-sizing: border-box ;
 }
-
 body{
   width: 100vw;
   height: 100vh;
@@ -71,16 +70,32 @@ h2{
   }
 }
 .item{
-  // place-items:center;
   margin-top: 4%;
 }
 svg{
   width: 30px;
   height: 30px;
 }
-.navbars .nav-link{
-  font-weight: 700;
-  color: white;
+.navbars{
+  .nav-link{
+    font-weight: 700;
+    color: white;
+  }
 }
 
 
+.cardimgcheck{
+  background-color: rgba(0, 0, 0, 0.13);
+  background-position: center;
+  background-size: cover;
+
+}
+.cards{ 
+  box-shadow: 5px 5px 20px gray;
+  min-height: 460px;
+}
+.select-course{
+  &:hover{
+    font-weight: bolder;
+  }
+}

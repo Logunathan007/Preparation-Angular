@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './nav-bar.component.scss'
 })
 export class NavBarComponent {
-
+  navActive = "home"
+  setActive(re:string){
+    this.navActive = re;
+  }
 }
