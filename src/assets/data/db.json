@@ -1,4 +1,80 @@
 {
+
+  "course_details":[
+    {
+      "name":"HTML",
+      "description":"Learn the standard markup language for creating web pages.",
+      "img":"assets/pictures/html.png",
+      "link":"https://developer.mozilla.org/en-US/docs/Web/HTML"
+    },
+    {
+      "name":"CSS",
+      "description":"Master the style sheet language for designing web pages.",
+      "img":"assets/pictures/css.png",
+      "link":"https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+      "name":"JS",
+      "description":"Explore the dynamic scripting language for interactive web development.",
+      "img":"assets/pictures/js.png",
+      "link":"https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
+      "name":"ReactJS",
+      "description":"Build user interfaces efficiently with this popular JavaScript library.",
+      "img":"assets/pictures/reactjs.png",
+      "link":"https://reactjs.org/docs/getting-started.html"
+    },
+    {
+      "name":"C",
+      "description":"Understand the fundamentals of the powerful general-purpose programming language.",
+      "img":"assets/pictures/c.png",
+      "link":"https://en.cppreference.com/w/c"
+    },
+    {
+      "name":"C++",
+      "description":"Advance your skills with this versatile object-oriented programming language.",
+      "img":"assets/pictures/c++.png",
+      "link":"https://en.cppreference.com/w/"
+    },
+    {
+      "name":"Java",
+      "description":"Learn the robust and platform-independent programming language.",
+      "img":"assets/pictures/java.png",
+      "link":"https://docs.oracle.com/javase/tutorial/"
+    },
+    {
+      "name":"Python",
+      "description":"Dive into the easy-to-read, high-level programming language for general purposes.",
+      "img":"assets/pictures/python.png",
+      "link":"https://docs.python.org/3/"
+    },
+    {
+      "name":"Flask",
+      "description":"Create web applications using this lightweight Python web framework.",
+      "img":"assets/pictures/flask.png",
+      "link":"https://flask.palletsprojects.com/en/2.0.x/"
+    },
+    {
+      "name":"SQL",
+      "description":"Manage and manipulate databases with the standard language for relational database management systems.",
+      "img":"assets/pictures/sql.png",
+      "link":"https://dev.mysql.com/doc/"
+    },
+    {
+      "name":"GitHub",
+      "description":"Collaborate on code and manage your projects with this platform for version control.",
+      "img":"assets/pictures/github.png",
+      "link":"https://docs.github.com/en"
+    },
+    {
+      "name":"Git",
+      "description":"Track changes in your code with the distributed version control system.",
+      "img":"assets/pictures/git.png",
+      "link":"https://git-scm.com/doc"
+    }
+],
+
   "user_data": [
     {
       "userid": "logu",
@@ -58,6 +134,11 @@
     {
       "id": "11c9",
       "userid": "1",
+      "password": "logulogu"
+    },
+    {
+      "id": "bf6a",
+      "userid": "logunathan007",
       "password": "logulogu"
     }
   ],

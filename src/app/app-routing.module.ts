@@ -10,9 +10,14 @@ const routes: Routes = [
   },
   {
     path:'signup',
-    component:SignupComponent,
-    
+    component:SignupComponent
+  },
+  {
+    path:'dashboard',
+    loadChildren:()=> import('./dashboard/dashboard.module').then(m=>m.DashboardModule),
+    canActivate:[]
   }
+
 ];
 
 @NgModule({

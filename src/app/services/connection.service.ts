@@ -7,7 +7,12 @@ import { Subject } from 'rxjs';
 })
 export class ConnectionService {
 
-  constructor(private http:HttpClient) { }
+  loginFlag:boolean = false;
+
+
+  constructor(private http:HttpClient) {
+
+  }
 
   login$:Subject<string> = new Subject();
   signup$:Subject<string> = new Subject();
@@ -20,9 +25,9 @@ export class ConnectionService {
         var fl = true;
         data.forEach((element:any) => {
           console.log("data is ",element,userId, element.userid === userId)
-
           if(element.userid === userId){
             if(element.password === password){
+              this.loginFlag = true;
               this.login$.next("s Your Successfully login");
             }else{
               this.login$.next("f Password is Not Matched")

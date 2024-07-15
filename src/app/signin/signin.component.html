@@ -1,35 +1,33 @@
-<form class="container-fluid mw-50 box" [formGroup]="formGroup" (submit)="validate()">
-  <h2>Login Form</h2>
+<div class="fullbox">
+  <form class="container-fluid box" [formGroup]="formGroup" (submit)="validate()">
+    <h2>Login Form</h2>
 
-  <div class="form-group row col-10 mx-auto">
-    <label for="userid">Enter Username or Email</label>
-    <input type="text" class="form-control" placeholder="User Id ..." formControlName="username">
-    <div class="errormsg text-danger col-10" *ngIf="!UserNameObj?.valid && (UserNameObj?.touched || UserNameObj?.dirty)">
-      <span class="col-10" *ngIf="UserNameObj?.errors?.['required']" > UserId is required </span>
+    <div class="form-group row col-10 mx-auto">
+      <label for="userid">Enter Username or Email</label>
+      <input type="text" class="form-control" placeholder="User Id ..." formControlName="username">
+      <div class="errormsg text-danger col-10" *ngIf="!UserNameObj?.valid && (UserNameObj?.touched || UserNameObj?.dirty)">
+        <span class="col-10" *ngIf="UserNameObj?.errors?.['required']" > UserId is required </span>
+      </div>
     </div>
-  </div>
-  <div class="form-group row col-10 mx-auto">
-    <label for="password">Enter your password</label>
-    <input type="password" class="form-control" placeholder="Password" formControlName="password">
-    <div class="errormsg text-danger col-10" *ngIf="!PasswordObj?.valid && (PasswordObj?.touched || PasswordObj?.dirty)">
-      <span class="col-10" *ngIf="PasswordObj?.errors?.['required']" > Password is required </span>
+    <div class="form-group row col-10 mx-auto">
+      <label for="password">Enter your password</label>
+      <input type="password" class="form-control" placeholder="Password" formControlName="password">
+      <div class="errormsg text-danger col-10" *ngIf="!PasswordObj?.valid && (PasswordObj?.touched || PasswordObj?.dirty)">
+        <span class="col-10" *ngIf="PasswordObj?.errors?.['required']" > Password is required </span>
+      </div>
     </div>
-  </div>
-  <div class="row mt-4">
-    <div class="col-10 mx-auto">
-      <button [disabled]="formGroup.invalid" class="btn bg-info col-12 py-1" id="loginbtn" type="submit">Login</button>
+    <div class="row mt-4">
+      <div class="col-10 mx-auto">
+        <button [disabled]="formGroup.invalid" class="btn bg-info col-12 py-1" id="loginbtn" type="submit">Login</button>
+      </div>
     </div>
-  </div>
-  <div class="row my-4">
-    <div class="col-8 mx-auto">
-      Are you new User,<a class="ps-3" [routerLink]="['signup']">Sign Up</a>
+    <div class="row my-4">
+      <div class="col-8 mx-auto">
+        Are you new User,<a class="ps-3" [routerLink]="['signup']">Sign Up</a>
+      </div>
     </div>
+  </form>
+  <div class="msssg" *ngIf="first">
+    <app-notification *ngIf="fl" [alerts]="msgFormat"></app-notification>
   </div>
-</form>
-<div class="msssg" *ngIf="first">
-  <app-notification *ngIf="fl" [alerts]="msgFormat"></app-notification>
 </div>
-
-
-
-
