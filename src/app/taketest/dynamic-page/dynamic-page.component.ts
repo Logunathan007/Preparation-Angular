@@ -1,3 +1,4 @@
+import { ViewportScroller } from '@angular/common';
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { PageChangedEvent } from 'ngx-bootstrap/pagination';
 @Component({
@@ -7,27 +8,25 @@ import { PageChangedEvent } from 'ngx-bootstrap/pagination';
 })
 export class DynamicPageComponent implements OnChanges{
   rotate = true;
-  maxSize = 3;
+  maxSize = 5;
   itemsPerPage = 5;
   currentPage = 1;
   status = "ON";
 
   @Input('datas')
-  datas:any = []
+  datas:any[] = []
+
+  currentPageData:any[] = [];
 
   totalNumberOfItems = this.datas.length
 
   ngOnChanges(changes: SimpleChanges): void {
-    this.itemsPerPage = this.datas.length
-    this.currentPageData = this.datas.slice(0,this.itemsPerPage)
-    console.log("ngOninit",this.currentPageData);
+    if(this.datas){
+      this.totalNumberOfItems = this.datas.length
+      this.currentPageData = this.datas.slice(0,this.itemsPerPage)
+    }
+    this.currentPage = 1;
   }
-
-  ngOnInit(): void {
-
-  }
-
-  currentPageData = [];
 
   pageChanged(event: PageChangedEvent): void {
     var cp = event.page
@@ -38,6 +37,6 @@ export class DynamicPageComponent implements OnChanges{
     console.log(start_ind,end_ind);
     this.currentPageData = this.datas.slice(start_ind,end_ind)
     console.log("pageChanged",this.currentPageData);
+    window.scrollTo(0, 0);
   }
-
 }

@@ -2,7 +2,7 @@
   <div *ngFor="let name of lang;" [ngClass]="{headerele:true,active:name===activeHeader}" (click)="toggleActiveHeader(name)">{{name}}</div>
 </header>
 <h2> MCQ's For {{activeHeader}}</h2>
-    <app-questin-card *ngFor="let qdata of datas;" [qdata]="qdata"></app-questin-card>
+    <!-- <app-questin-card *ngFor="let qdata of datas;" [qdata]="qdata"></app-questin-card> -->
 
 <app-dynamic-page [datas]="datas"></app-dynamic-page>
 
