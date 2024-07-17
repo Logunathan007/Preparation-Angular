@@ -14,6 +14,8 @@ export class ConnectionService {
 
   }
 
+  activeUserId:string = ""
+
   login$:Subject<string> = new Subject();
   signup$:Subject<string> = new Subject();
 
@@ -28,6 +30,7 @@ export class ConnectionService {
             if(element.password === password){
               this.loginFlag = true;
               this.str = "new"
+              this.activeUserId = element.userid;
               console.log("login validate method",this.str,this.loginFlag);
 
               this.login$.next("s Your Successfully login");

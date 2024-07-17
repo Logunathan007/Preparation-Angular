@@ -21,7 +21,12 @@ const routes: Routes = [
   {
     path:'dashboard/taketest',
     loadChildren:()=> import('./taketest/taketest.module').then(m=>m.TaketestModule)
+  },
+  {
+    path:'dashboard/contest',
+    loadChildren:()=>import('./contest/contest.module').then(m=>m.ContestModule)
   }
+
 ];
 
 @NgModule({

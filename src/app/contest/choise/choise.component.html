@@ -1,0 +1,6 @@
+<label class="choiselabel ps-5 form-check border-1 d-flex align-items-center is-invalid " [ngClass]="{'border-success':ans===ch && clickedId===idIs,'border-danger':ans!==ch && clickedId===idIs,'green-shadow':ans===ch && clickedId===idIs,'red-shadow':ans!==ch && clickedId===idIs}" [for]="idIs" >
+  <input class="form-check-input d-inline me-3 mt-0" [ngClass]="{'bg-success':ans===ch && clickedId===idIs,'bg-danger':ans!==ch && clickedId===idIs}" type="radio" name="flexRadioDefault" [id]="idIs" (click)="selected(idIs)" >
+  <label class="form-check-label m-0 f-center" [ngClass]="{'text-success':ans===ch && clickedId===idIs,'text-danger':ans!==ch && clickedId===idIs}" [for]="idIs">
+    <h6 class="pt-2">{{ch}}</h6>
+  </label>
+</label>

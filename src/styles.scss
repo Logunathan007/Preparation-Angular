@@ -142,7 +142,26 @@ svg{
   border: 1px solid black;
   border-radius: 5px;
   box-shadow: 1px 1px 5px black;
-
 }
+.testRulesBox{
+  border-radius: 5px;
+  padding:30px 20px;
+  display: flex;
+  flex-direction: column;
+  ul{
+    li{
+      margin: 10px 0px;
+      font-size: 1.2rem;
+    }
+  }
+  .startbtn{
+    width: fit-content;
+    align-self: flex-end;
+  }
+}
+.testPageHeader{
+  // background-color: rgba(0, 0, 0, 0.747);
+}
+
 
 
