@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import { Injectable, Optional } from '@angular/core';
 import { Subject } from 'rxjs';
 
 @Injectable({
@@ -8,9 +8,9 @@ import { Subject } from 'rxjs';
 export class ConnectionService {
 
   loginFlag:boolean = false;
+  str = "old";
 
-
-  constructor(private http:HttpClient) {
+  constructor(@Optional() public http?: HttpClient) {
 
   }
 
@@ -20,16 +20,19 @@ export class ConnectionService {
   URL = `http://localhost:3000/`
 
   loginValidate(path:string,userId:any,password:any){
-    this.http.get<any[]>(this.URL+`${path}`).subscribe(
+    this.http?.get<any[]>(this.URL+`${path}`).subscribe(
       (data:any[])=>{
         var fl = true;
         data.forEach((element:any) => {
-          console.log("data is ",element,userId, element.userid === userId)
           if(element.userid === userId){
             if(element.password === password){
               this.loginFlag = true;
+              this.str = "new"
+              console.log("login validate method",this.str,this.loginFlag);
+
               this.login$.next("s Your Successfully login");
             }else{
+              this.loginFlag = false;
               this.login$.next("f Password is Not Matched")
             }
             fl = false;
@@ -41,7 +44,7 @@ export class ConnectionService {
   }
 
   signupValidate(path:string,userId:any,password:any){
-    this.http.get<any[]>(this.URL+`${path}`).subscribe(
+    this.http?.get<any[]>(this.URL+`${path}`).subscribe(
       (data:any[])=>{
         var fl = true;
         data.forEach((element:any) => {
@@ -51,7 +54,7 @@ export class ConnectionService {
           }
         });
         if(fl){
-          this.http.post(this.URL+`${path}`,{userid:userId,password:password}).subscribe(data=>{console.log(data)})
+          this.http?.post(this.URL+`${path}`,{userid:userId,password:password}).subscribe(data=>{console.log(data)})
           this.signup$.next("s Your Data is Stored Successfully");
         }
     })

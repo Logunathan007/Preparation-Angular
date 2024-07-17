@@ -1,0 +1,10 @@
+<div class="row">
+  <div class="col-xs-12 col-12 d-flex">
+    <pagination class="mx-auto" [(ngModel)]="currentPage" [itemsPerPage]="itemsPerPage" [totalItems]="totalNumberOfItems" [rotate]="rotate" [maxSize]="maxSize" previousText="&lsaquo;" nextText="&rsaquo;" (pageChanged)="pageChanged($event)"></pagination>
+  </div>
+  <div class="container-fluid w-100">
+    <!-- <app-questin-card *ngFor="let qdata of datas;" [qdata]="qdata"></app-questin-card> -->
+  </div>
+
+
+</div>

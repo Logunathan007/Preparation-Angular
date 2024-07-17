@@ -1,9 +1,16 @@
 
 $btn-font-size:20px;
+$bs-info:#0dcaf0;
+
 *{
   margin: 0px ;
   padding: 0px ;
   box-sizing: border-box ;
+}
+.f-center{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 body{
   width: 100vw;
@@ -90,7 +97,7 @@ svg{
   background-size: cover;
 
 }
-.cards{ 
+.cards{
   box-shadow: 5px 5px 20px gray;
   min-height: 460px;
 }
@@ -99,3 +106,43 @@ svg{
     font-weight: bolder;
   }
 }
+.green-shadow{
+  box-shadow: 1px 1px 5px green !important;
+}
+.red-shadow{
+  box-shadow: 1px 1px 5px red !important;
+}
+.choiselabel{
+  border: 1px solid black;
+  box-shadow: 1px 1px 5px gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.headerele{
+  width: 70px;
+  text-align: center;
+  &:hover{
+  color: black !important;
+  border-radius: 4px;
+  border: none;
+  padding:0px 4px;
+  background-color: skyblue;
+  cursor: pointer;
+  }
+}
+
+.head .active{
+  color:$bs-info;
+}
+
+.choiseBox .correct{
+ border: 1px soid green !important;
+}
+.quesContainer{
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+
+}
+
+

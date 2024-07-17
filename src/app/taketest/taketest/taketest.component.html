@@ -1,0 +1,9 @@
+<header class="head d-flex justify-content-around bg-black text-white fs-5 sticky-top">
+  <div *ngFor="let name of lang;" [ngClass]="{headerele:true,active:name===activeHeader}" (click)="toggleActiveHeader(name)">{{name}}</div>
+</header>
+<h2> MCQ's For {{activeHeader}}</h2>
+    <app-questin-card *ngFor="let qdata of datas;" [qdata]="qdata"></app-questin-card>
+
+<app-dynamic-page [datas]="datas"></app-dynamic-page>
+
+
