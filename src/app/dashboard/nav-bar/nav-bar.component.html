@@ -9,17 +9,17 @@
     </button>
     <div class=" collapse navbar-collapse navbars" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto me-1 mb-2 mb-lg-0">
-        <li class="nav-item" (click)="setActive('home')">
-          <a [ngClass]="{'nav-link':true,'active':navActive=='home'}" [routerLink]="['home']">Home</a>
+        <li class="nav-item" (click)="this.cs.changeNavActive('home')">
+          <a [ngClass]="{'nav-link':true,'active':navActive[0]==='home'}" [routerLink]="['/dashboard']">Home</a>
         </li>
-        <li class="nav-item" (click)="setActive('material')">
-          <a [ngClass]="{'nav-link':true,'active':navActive=='material'}" [routerLink]="['material']">Material</a>
+        <li class="nav-item" (click)="this.cs.changeNavActive('material')">
+          <a [ngClass]="{'nav-link':true,'active':navActive[0]==='material'}" [routerLink]="['material']">Material</a>
         </li>
-        <li class="nav-item" (click)="setActive('taketest')">
-          <a [ngClass]="{'nav-link':true,'active':navActive=='taketest'}" [routerLink]="['taketest']">Taketest</a>
+        <li class="nav-item" (click)="this.cs.changeNavActive('taketest')">
+          <a [ngClass]="{'nav-link':true,'active':navActive[0]==='taketest'}" [routerLink]="['taketest']">Taketest</a>
         </li>
-        <li class="nav-item" (click)="setActive('contest')">
-          <a [ngClass]="{'nav-link':true,'active':navActive=='contest'}" [routerLink]="['contest']">Contest</a>
+        <li class="nav-item" (click)="this.cs.changeNavActive('contest')">
+          <a [ngClass]="{'nav-link':true,'active':navActive[0]==='contest'}" [routerLink]="['contest']">Contest</a>
         </li>
       </ul>
     </div>

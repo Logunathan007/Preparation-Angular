@@ -25,5 +25,4 @@ export class ChoiseComponent {
 
   @Input("idIs")
   idIs = "";
-
 }

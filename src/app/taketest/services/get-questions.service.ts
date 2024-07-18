@@ -11,9 +11,7 @@ export class GetQuestionsService {
   userId = ""
 
   questions_list:any = {};
-  questionSet:any = []
-  randomSet:any = []
-  totalNoOfQuestions = 10
+
   obj = {}
 
   public bs:BehaviorSubject<any> = new BehaviorSubject(this.questions_list);;

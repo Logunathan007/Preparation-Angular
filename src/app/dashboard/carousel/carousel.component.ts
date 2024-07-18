@@ -1,6 +1,7 @@
 import { Component,OnInit } from '@angular/core';
 import { CarouselConfig } from 'ngx-bootstrap/carousel';
 import { GetDataService } from '../services/get-data.service';
+import { ConnectionService } from '../../services/connection.service';
 @Component({
   selector: 'app-carousel',
   templateUrl: './carousel.component.html',
@@ -11,7 +12,7 @@ import { GetDataService } from '../services/get-data.service';
 })
 export class CarouselComponent implements OnInit{
 
-  constructor(private gd:GetDataService){}
+  constructor(private gd:GetDataService,public cs:ConnectionService){}
 
   data = []
 

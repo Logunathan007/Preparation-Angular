@@ -22,7 +22,7 @@ export class SignupComponent {
       setTimeout(()=>{
         this.fl = false;
         if(this.msg?.charAt(0) === 's')
-          router.navigate(['login']);
+          router.navigate(['']);
       },3000)
       this.msgFormat = {
         type: (this.msg.charAt(0) === 's')?'info':'danger',

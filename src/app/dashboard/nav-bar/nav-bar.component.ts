@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ConnectionService } from '../../services/connection.service';
 
 @Component({
   selector: 'app-nav-bar',
@@ -6,8 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './nav-bar.component.scss'
 })
 export class NavBarComponent {
-  navActive = "home"
-  setActive(re:string){
-    this.navActive = re;
+
+  navActive:any = []
+
+  constructor(public cs:ConnectionService){
+    this.navActive = cs.navActive
   }
 }

@@ -11,15 +11,15 @@ import { CheckListComponent } from './check-list/check-list.component';
 import { ResultPageComponent } from './result-page/result-page.component';
 import { ModalModule } from 'ngx-bootstrap/modal';
 
-const router:Routes = [
-  {
-    path:'',
-    component:ContestComponent
-  },{
-    path:'testpage',
-    component:TestpageComponent
-  },
-]
+// const router:Routes = [
+//   {
+//     path:'',
+//     component:ContestComponent
+//   },{
+//     path:'testpage',
+//     component:TestpageComponent
+//   },
+// ]
 
 @NgModule({
   declarations: [
@@ -33,11 +33,14 @@ const router:Routes = [
   ],
   imports: [
     CommonModule,
-    RouterModule.forChild(router),
+    RouterModule,
     ModalModule.forRoot()
   ],
   providers:[
     ServicesService,
+  ],
+  exports:[
+    ContestComponent
   ]
 })
 export class ContestModule { }

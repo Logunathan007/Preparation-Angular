@@ -10,7 +10,7 @@ export class TaketestComponent {
   activeHeader:string = "C"
   lang = ['C','C++','Java','Python']
 
-  datas:any = {};
+  datas:any;
 
   constructor(private cs:GetQuestionsService){
     this.cs.bs.subscribe((data)=>{

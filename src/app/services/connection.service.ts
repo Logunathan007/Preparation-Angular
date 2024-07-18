@@ -9,9 +9,14 @@ export class ConnectionService {
 
   loginFlag:boolean = false;
   str = "old";
+  navActive = ["home"]
+
+  changeNavActive(bar:string){
+    this.navActive[0] = bar;
+  }
 
   constructor(@Optional() public http?: HttpClient) {
-
+    
   }
 
   activeUserId:string = ""
@@ -59,6 +64,8 @@ export class ConnectionService {
         if(fl){
           this.http?.post(this.URL+`${path}`,{userid:userId,password:password}).subscribe(data=>{console.log(data)})
           this.signup$.next("s Your Data is Stored Successfully");
+          console.log("signuped");
+
         }
     })
   }

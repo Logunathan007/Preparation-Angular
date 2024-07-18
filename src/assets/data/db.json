@@ -1,80 +1,90 @@
 {
-
-  "course_details":[
+  "course_details": [
     {
-      "name":"HTML",
-      "description":"Learn the standard markup language for creating web pages.",
-      "img":"assets/pictures/html.png",
-      "link":"https://developer.mozilla.org/en-US/docs/Web/HTML"
+      "name": "HTML",
+      "description": "Learn the standard markup language for creating web pages.",
+      "img": "assets/pictures/html.png",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "id": "3d9f"
     },
     {
-      "name":"CSS",
-      "description":"Master the style sheet language for designing web pages.",
-      "img":"assets/pictures/css.png",
-      "link":"https://developer.mozilla.org/en-US/docs/Web/CSS"
+      "name": "CSS",
+      "description": "Master the style sheet language for designing web pages.",
+      "img": "assets/pictures/css.png",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "id": "76a5"
     },
     {
-      "name":"JS",
-      "description":"Explore the dynamic scripting language for interactive web development.",
-      "img":"assets/pictures/js.png",
-      "link":"https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      "name": "JS",
+      "description": "Explore the dynamic scripting language for interactive web development.",
+      "img": "assets/pictures/js.png",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "id": "0659"
     },
     {
-      "name":"ReactJS",
-      "description":"Build user interfaces efficiently with this popular JavaScript library.",
-      "img":"assets/pictures/reactjs.png",
-      "link":"https://reactjs.org/docs/getting-started.html"
+      "name": "ReactJS",
+      "description": "Build user interfaces efficiently with this popular JavaScript library.",
+      "img": "assets/pictures/reactjs.png",
+      "link": "https://reactjs.org/docs/getting-started.html",
+      "id": "5261"
     },
     {
-      "name":"C",
-      "description":"Understand the fundamentals of the powerful general-purpose programming language.",
-      "img":"assets/pictures/c.png",
-      "link":"https://en.cppreference.com/w/c"
+      "name": "C",
+      "description": "Understand the fundamentals of the powerful general-purpose programming language.",
+      "img": "assets/pictures/c.png",
+      "link": "https://en.cppreference.com/w/c",
+      "id": "26dd"
     },
     {
-      "name":"C++",
-      "description":"Advance your skills with this versatile object-oriented programming language.",
-      "img":"assets/pictures/c++.png",
-      "link":"https://en.cppreference.com/w/"
+      "name": "C++",
+      "description": "Advance your skills with this versatile object-oriented programming language.",
+      "img": "assets/pictures/c++.png",
+      "link": "https://en.cppreference.com/w/",
+      "id": "4c9e"
     },
     {
-      "name":"Java",
-      "description":"Learn the robust and platform-independent programming language.",
-      "img":"assets/pictures/java.png",
-      "link":"https://docs.oracle.com/javase/tutorial/"
+      "name": "Java",
+      "description": "Learn the robust and platform independent programming language.",
+      "img": "assets/pictures/java.png",
+      "link": "https://docs.oracle.com/javase/tutorial/",
+      "id": "92df"
     },
     {
-      "name":"Python",
-      "description":"Dive into the easy-to-read, high-level programming language for general purposes.",
-      "img":"assets/pictures/python.png",
-      "link":"https://docs.python.org/3/"
+      "name": "Python",
+      "description": "Dive into the easy-to-read, high-level programming language for general purposes.",
+      "img": "assets/pictures/python.png",
+      "link": "https://docs.python.org/3/",
+      "id": "08b5"
     },
     {
-      "name":"Flask",
-      "description":"Create web applications using this lightweight Python web framework.",
-      "img":"assets/pictures/flask.png",
-      "link":"https://flask.palletsprojects.com/en/2.0.x/"
+      "name": "Flask",
+      "description": "Create web applications using this lightweight Python web framework.",
+      "img": "assets/pictures/flask.png",
+      "link": "https://flask.palletsprojects.com/en/2.0.x/",
+      "id": "0d5b"
     },
     {
-      "name":"SQL",
-      "description":"Manage and manipulate databases with the standard language for relational database management systems.",
-      "img":"assets/pictures/sql.png",
-      "link":"https://dev.mysql.com/doc/"
+      "name": "SQL",
+      "description": "Manage and manipulate databases with the standard language for relational database management systems.",
+      "img": "assets/pictures/sql.png",
+      "link": "https://dev.mysql.com/doc/",
+      "id": "0211"
     },
     {
-      "name":"GitHub",
-      "description":"Collaborate on code and manage your projects with this platform for version control.",
-      "img":"assets/pictures/github.png",
-      "link":"https://docs.github.com/en"
+      "name": "GitHub",
+      "description": "Collaborate on code and manage your projects with this platform for version control.",
+      "img": "assets/pictures/github.png",
+      "link": "https://docs.github.com/en",
+      "id": "977e"
     },
     {
-      "name":"Git",
-      "description":"Track changes in your code with the distributed version control system.",
-      "img":"assets/pictures/git.png",
-      "link":"https://git-scm.com/doc"
+      "name": "Git",
+      "description": "Track changes in your code with the distributed version control system.",
+      "img": "assets/pictures/git.png",
+      "link": "https://git-scm.com/doc",
+      "id": "c9ff"
     }
-],
-
+  ],
   "user_data": [
     {
       "userid": "logu",
@@ -140,2234 +150,2248 @@
       "id": "bf6a",
       "userid": "logunathan007",
       "password": "logulogu"
+    },
+    {
+      "id": "880d",
+      "userid": "checkuser",
+      "password": "checkuser"
+    },
+    {
+      "id": "c25c",
+      "userid": "checkUsers",
+      "password": "checkuser"
+    },
+    {
+      "id": "148e",
+      "userid": "checkUser",
+      "password": "checkuser"
     }
   ],
-  "questions":
-    {
-      "C": [
-        {
-          "id": "c_question1",
-          "question": "How many data types are there in C?",
-          "options": [
-            4,
-            5,
-            6,
-            7
-          ],
-          "answer": 4,
-          "description": "C has 4 primary data types: int, float, char, and double."
-        },
-        {
-          "id": "c_question2",
-          "question": "What is the size of an int in C?",
-          "options": [
-            "2 bytes",
-            "4 bytes",
-            "8 bytes",
-            "Depends on the compiler"
-          ],
-          "answer": "Depends on the compiler",
-          "description": "The size of int in C can vary depending on the compiler and system architecture."
-        },
-        {
-          "id": "c_question3",
-          "question": "Which of the following is not a valid C variable name?",
-          "options": [
-            "var_name",
-            "_var_name",
-            "2var_name",
-            "varName"
-          ],
-          "answer": "2var_name",
-          "description": "Variables in C cannot start with a digit."
-        },
-        {
-          "id": "c_question4",
-          "question": "Which symbol is used to declare a pointer in C?",
-          "options": [
-            "*",
-            "&",
-            "#",
-            "$"
-          ],
-          "answer": "*",
-          "description": "The asterisk (*) symbol is used to declare a pointer in C."
-        },
-        {
-          "id": "c_question5",
-          "question": "Which function is used to print formatted output in C?",
-          "options": [
-            "scanf",
-            "printf",
-            "print",
-            "fprint"
-          ],
-          "answer": "printf",
-          "description": "`printf` is used to print formatted output to the console in C."
-        },
-        {
-          "id": "c_question6",
-          "question": "Which of the following is the correct operator to compare two variables in C?",
-          "options": [
-            "=",
-            "==",
-            "!=",
-            "<>"
-          ],
-          "answer": "==",
-          "description": "`==` is the equality operator used to compare two variables in C."
-        },
-        {
-          "id": "c_question7",
-          "question": "What does the `sizeof` operator do?",
-          "options": [
-            "Returns the number of elements in an array",
-            "Returns the size of a variable",
-            "Returns the length of a string",
-            "Returns the number of arguments passed"
-          ],
-          "answer": "Returns the size of a variable",
-          "description": "`sizeof` returns the size of a variable or data type in bytes."
-        },
-        {
-          "id": "c_question8",
-          "question": "Which header file is required for using the `printf` function?",
-          "options": [
-            "<conio.h>",
-            "<stdio.h>",
-            "<stdlib.h>",
-            "<string.h>"
-          ],
-          "answer": "<stdio.h>",
-          "description": "`<stdio.h>` is the standard input/output header file required for using `printf` in C."
-        },
-        {
-          "id": "c_question9",
-          "question": "What is a pointer in C?",
-          "options": [
-            "A variable that stores a memory address",
-            "A variable that stores an integer",
-            "A function",
-            "An operator"
-          ],
-          "answer": "A variable that stores a memory address",
-          "description": "A pointer in C is a variable that stores the memory address of another variable."
-        },
-        {
-          "id": "c_question10",
-          "question": "What is the correct way to declare a function in C?",
-          "options": [
-            "function_name;",
-            "void function_name();",
-            "function_name(){}",
-            "function_name: void;"
-          ],
-          "answer": "void function_name();",
-          "description": "In C, functions are declared using the syntax `return_type function_name(parameters);`. The `void` keyword specifies that the function does not return a value."
-        },
-        {
-          "id": "c_question11",
-          "question": "Which of the following is used for comments in C?",
-          "options": [
-            "// comment",
-            "/* comment */",
-            "# comment",
-            "% comment"
-          ],
-          "answer": "/* comment */",
-          "description": "`/* comment */` is used for block comments in C."
-        },
-        {
-          "id": "c_question12",
-          "question": "What is the output of the following code?\n```c\nint a = 5;\nint b = 2;\nprintf(\"%d\", a % b);\n```",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": "1",
-          "description": "`%` is the modulo operator in C, which computes the remainder of `a` divided by `b`. Therefore, `a % b` equals 1."
-        },
-        {
-          "id": "c_question13",
-          "question": "What does the `break` statement do in a loop?",
-          "options": [
-            "Exits the loop",
-            "Skips the current iteration",
-            "Continues to the next iteration",
-            "Restarts the loop"
-          ],
-          "answer": "Exits the loop",
-          "description": "`break` is used to exit the loop prematurely."
-        },
-        {
-          "id": "c_question14",
-          "question": "What is the value of `x` after the following code?\n```c\nint x = 10;\nint y = 5;\nx += y;\n```",
-          "options": [
-            "10",
-            "5",
-            "15",
-            "20"
-          ],
-          "answer": "15",
-          "description": "`x += y;` is shorthand for `x = x + y;`. Therefore, `x` will be 15 after execution."
-        },
-        {
-          "id": "c_question15",
-          "question": "What is the output of the following code?\n```c\nint a = 5;\nprintf(\"%d\", a++);\n```",
-          "options": [
-            "4",
-            "5",
-            "6",
-            "Error"
-          ],
-          "answer": "5",
-          "description": "The `printf` function prints the current value of `a` (which is 5) and then increments `a` by 1 due to the post-increment operator (`a++`). Therefore, the output is 5."
-        },
-        {
-          "id": "c_question16",
-          "question": "Which of the following is not a loop structure in C?",
-          "options": [
-            "for",
-            "while",
-            "do-while",
-            "foreach"
-          ],
-          "answer": "foreach",
-          "description": "`foreach` is not a loop structure in C."
-        },
-        {
-          "id": "c_question17",
-          "question": "What is the return type of the `malloc` function?",
-          "options": [
-            "int",
-            "void",
-            "void*",
-            "char*"
-          ],
-          "answer": "void*",
-          "description": "`malloc` returns a void pointer (`void*`) which can be cast to any other pointer type."
-        },
-        {
-          "id": "c_question18",
-          "question": "What is the purpose of the `#define` directive?",
-          "options": [
-            "To define a macro",
-            "To define a function",
-            "To define a variable",
-            "To define a constant"
-          ],
-          "answer": "To define a macro",
-          "description": "`#define` is used to define macros in C, which are replaced by their values during preprocessing."
-        },
-        {
-          "id": "c_question19",
-          "question": "What is the correct way to declare an array in C?",
-          "options": [
-            "int array[];",
-            "int array[10];",
-            "array int[10];",
-            "array[10] int;"
-          ],
-          "answer": "int array[10];",
-          "description": "Arrays in C are declared using square brackets `[]` to specify the size of the array."
-        },
-        {
-          "id": "c_question20",
-          "question": "Which function is used to read a single character from the standard input in C?",
-          "options": [
-            "scanf",
-            "getchar",
-            "gets",
-            "fgets"
-          ],
-          "answer": "getchar",
-          "description": "`getchar` is used to read a single character from the standard input (keyboard) in C."
-        },
-        {
-          "id": "c_question21",
-          "question": "Which of the following is a storage class specifier in C?",
-          "options": [
-            "auto",
-            "register",
-            "static",
-            "All of the above"
-          ],
-          "answer": "All of the above",
-          "description": "`auto`, `register`, and `static` are all storage class specifiers in C."
-        },
-        {
-          "id": "c_question22",
-          "question": "What does the `continue` statement do in a loop?",
-          "options": [
-            "Exits the loop",
-            "Skips the current iteration",
-            "Continues to the next iteration",
-            "Restarts the loop"
-          ],
-          "answer": "Continues to the next iteration",
-          "description": "`continue` skips the remaining code in the loop for the current iteration and continues with the next iteration."
-        },
-        {
-          "id": "c_question23",
-          "question": "What is the output of the following code?\n```c\nint x = 5;\nint y = 2;\nprintf(\"%d\", x / y);\n```",
-          "options": [
-            "2",
-            "2.5",
-            "2.0",
-            "Error"
-          ],
-          "answer": "2",
-          "description": "In integer division in C, the result is always an integer. Therefore, `x / y` equals 2."
-        },
-        {
-          "id": "c_question24",
-          "question": "What is the correct syntax for a `do-while` loop in C?",
-          "options": [
-            "do { /* code */ } while (condition);",
-            "while (condition) { /* code */ } do;",
-            "do while (condition) { /* code */ };",
-            "do (condition) { /* code */ } while;"
-          ],
-          "answer": "do { /* code */ } while (condition);",
-          "description": "`do-while` loops in C are written with the `do { /* code */ } while (condition);` syntax."
-        },
-        {
-          "id": "c_question25",
-          "question": "What is the output of the following code?\n```c\nint a = 5;\nint b = 2;\nprintf(\"%d\", a / b);\n```",
-          "options": [
-            "2",
-            "2.5",
-            "3",
-            "Error"
-          ],
-          "answer": "2",
-          "description": "In C, when two integers are divided, the result is also an integer. The fractional part is discarded (truncated). In this code, `a` is 5 and `b` is 2. When `a` is divided by `b`, the result is 2 (since 5 divided by 2 is 2.5, and the .5 is discarded). Therefore, the output of the code is `2`."
-        },
-        {
-          "id": "c_question26",
-          "question": "What does the `void` keyword indicate in a function declaration in C?",
-          "options": [
-            "It indicates that the function returns no value",
-            "It indicates that the function is undefined",
-            "It indicates that the function is private",
-            "It indicates that the function is public"
-          ],
-          "answer": "It indicates that the function returns no value",
-          "description": "The `void` keyword in a function declaration indicates that the function does not return any value."
-        },
-        {
-          "id": "c_question27",
-          "question": "Which of the following is true about `const` qualifier in C?",
-          "options": [
-            "It makes a variable read-only",
-            "It makes a variable constant",
-            "It makes a variable non-modifiable",
-            "All of the above"
-          ],
-          "answer": "All of the above",
-          "description": "`const` qualifier in C makes a variable read-only, constant, and non-modifiable."
-        },
-        {
-          "id": "c_question28",
-          "question": "What is the purpose of the `enum` keyword in C?",
-          "options": [
-            "To define a new data type",
-            "To define a constant value",
-            "To define a macro",
-            "To define a structure"
-          ],
-          "answer": "To define a new data type",
-          "description": "The `enum` keyword in C is used to define an enumeration, which is a new data type consisting of a set of named constants."
-        },
-        {
-          "id": "c_question29",
-          "question": "What is the correct way to declare a structure in C?",
-          "options": [
-            "struct MyStruct {}",
-            "MyStruct { struct }",
-            "struct { MyStruct }",
-            "typedef struct {} MyStruct;"
-          ],
-          "answer": "typedef struct {} MyStruct;",
-          "description": "In C, structures are declared using `struct` keyword followed by the structure definition. Using `typedef` allows creating a new type alias."
-        },
-        {
-          "id": "c_question30",
-          "question": "Which operator is used to access structure members in C?",
-          "options": [
-            ".",
-            "->",
-            "::",
-            "=>"
-          ],
-          "answer": ".",
-          "description": "The dot (`.`) operator is used to access structure members in C."
-        },
-        {
-          "id": "c_question31",
-          "question": "What does the `typedef` keyword do in C?",
-          "options": [
-            "It declares a new type alias",
-            "It declares a new variable",
-            "It declares a new function",
-            "It declares a new structure"
-          ],
-          "answer": "It declares a new type alias",
-          "description": "`typedef` in C is used to create a new type alias or synonym."
-        },
-        {
-          "id": "c_question32",
-          "question": "Which function is used to dynamically allocate memory in C?",
-          "options": [
-            "calloc",
-            "malloc",
-            "realloc",
-            "free"
-          ],
-          "answer": "malloc",
-          "description": "`malloc` is used for dynamic memory allocation in C."
-        },
-        {
-          "id": "c_question33",
-          "question": "What is the purpose of the `static` keyword in C?",
-          "options": [
-            "To define a global variable",
-            "To define a local variable",
-            "To limit the scope of a variable",
-            "To preserve the value of a variable"
-          ],
-          "answer": "To preserve the value of a variable",
-          "description": "`static` in C preserves the value of a variable across function calls."
-        },
-        {
-          "id": "c_question34",
-          "question": "What is the output of the following code?\n```c\nint x = 5;\nif (x > 3) {\n    printf(\"Hello\");\n} else {\n    printf(\"World\");\n}\n```",
-          "options": [
-            "Hello",
-            "World",
-            "HelloWorld",
-            "Error"
-          ],
-          "answer": "Hello",
-          "description": "Since `x` is greater than 3, the condition `x > 3` evaluates to true, so `Hello` will be printed."
-        },
-        {
-          "id": "c_question35",
-          "question": "What is the output of the following code?\n```c\nint x = 2;\nswitch (x) {\n    case 1:\n        printf(\"One\");\n        break;\n    case 2:\n        printf(\"Two\");\n        break;\n    default:\n        printf(\"Default\");\n}\n```",
-          "options": [
-            "One",
-            "Two",
-            "Default",
-            "Error"
-          ],
-          "answer": "Two",
-          "description": "The value of `x` is 2, so `case 2` will match and `Two` will be printed. The `break` statement prevents fall-through to the `default` case."
-        },
-        {
-          "id": "c_question36",
-          "question": "Which of the following is true about `sizeof` operator in C?",
-          "options": [
-            "It returns the size of a variable",
-            "It returns the size of an array",
-            "It returns the size of a data type",
-            "All of the above"
-          ],
-          "answer": "All of the above",
-          "description": "`sizeof` operator in C returns the size of a variable, an array, or a data type in bytes."
-        },
-        {
-          "id": "c_question37",
-          "question": "What is the output of the following code?\n```c\nint x = 3;\nint y = 2;\nprintf(\"%d\", x * y);\n```",
-          "options": [
-            "5",
-            "6",
-            "10",
-            "Error"
-          ],
-          "answer": "6",
-          "description": "`x * y` multiplies `x` and `y`, resulting in 6, which is then printed."
-        },
-        {
-          "id": "c_question38",
-          "question": "What is the purpose of `break` statement in a `switch` statement?",
-          "options": [
-            "To exit the switch statement",
-            "To skip the current case",
-            "To continue to the next case",
-            "To restart the switch statement"
-          ],
-          "answer": "To exit the switch statement",
-          "description": "`break` in a `switch` statement is used to exit the `switch` block after a case is executed."
-        },
-        {
-          "id": "c_question39",
-          "question": "Which of the following is a unary operator in C?",
-          "options": [
-            "+",
-            "-",
-            "*",
-            "/"
-          ],
-          "answer": "-",
-          "description": "`-` is a unary operator in C, used for negation or to indicate a negative number."
-        },
-        {
-          "id": "c_question40",
-          "question": "What is the output of the following code?\n```c\nint x = 10;\nint y = 5;\nprintf(\"%d\", x - y);\n```",
-          "options": [
-            "5",
-            "10",
-            "15",
-            "Error"
-          ],
-          "answer": "5",
-          "description": "`x - y` subtracts `y` from `x`, resulting in 5, which is then printed."
-        },
-        {
-          "id": "c_question41",
-          "question": "What is the purpose of `continue` statement in a loop?",
-          "options": [
-            "To exit the loop",
-            "To skip the current iteration",
-            "To restart the loop",
-            "To continue to the next iteration"
-          ],
-          "answer": "To continue to the next iteration",
-          "description": "`continue` statement skips the remaining code in the loop for the current iteration and continues with the next iteration."
-        },
-        {
-          "id": "c_question42",
-          "question": "What does the `#include` directive do in C?",
-          "options": [
-            "It includes a header file",
-            "It includes a library",
-            "It includes a function",
-            "It includes a macro"
-          ],
-          "answer": "It includes a header file",
-          "description": "`#include` directive in C is used to include header files containing declarations needed for a program."
-        },
-        {
-          "id": "c_question43",
-          "question": "What is the output of the following code?\n```c\nint x = 2;\nprintf(\"%d\", ++x);\n```",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "Error"
-          ],
-          "answer": "3",
-          "description": "`++x` increments `x` by 1 before printing, so the output is 3."
-        },
-        {
-          "id": "c_question44",
-          "question": "What is the purpose of the `NULL` macro in C?",
-          "options": [
-            "To define a null character",
-            "To define a null string",
-            "To define a null pointer",
-            "To define a null variable"
-          ],
-          "answer": "To define a null pointer",
-          "description": "`NULL` macro in C is used to define a null pointer, typically used to signify that a pointer does not point to a valid object."
-        },
-        {
-          "id": "c_question45",
-          "question": "Which function is used to free dynamically allocated memory in C?",
-          "options": [
-            "calloc",
-            "malloc",
-            "realloc",
-            "free"
-          ],
-          "answer": "free",
-          "description": "`free` function in C is used to deallocate dynamically allocated memory."
-        },
-        {
-          "id": "c_question46",
-          "question": "What is the purpose of the `#ifdef` directive in C?",
-          "options": [
-            "To define a conditional compilation",
-            "To include a header file",
-            "To declare a variable",
-            "To define a macro"
-          ],
-          "answer": "To define a conditional compilation",
-          "description": "`#ifdef` directive in C checks whether a macro has been defined before including code in the compilation process."
-        },
-        {
-          "id": "c_question47",
-          "question": "What is the output of the following code?\n```c\nint x = 2;\nint y = 4;\nprintf(\"%d\", x << y);\n```",
-          "options": [
-            "8",
-            "16",
-            "32",
-            "64"
-          ],
-          "answer": "32",
-          "description": "`x << y` shifts the bits of `x` to the left by `y` positions, which results in 32."
-        },
-        {
-          "id": "c_question48",
-          "question": "What is the purpose of the `volatile` keyword in C?",
-          "options": [
-            "To declare a constant",
-            "To declare a variable",
-            "To indicate a variable may change unexpectedly",
-            "To indicate a variable won't change"
-          ],
-          "answer": "To indicate a variable may change unexpectedly",
-          "description": "`volatile` keyword in C indicates that a variable may be changed unexpectedly, often used in device drivers or multi-threaded programs."
-        },
-        {
-          "id": "c_question49",
-          "question": "What is the output of the following code?\n```c\nint x = 2;\nint y = 4;\nprintf(\"%d\", x >> y);\n```",
-          "options": [
-            "1",
-            "2",
-            "4",
-            "8"
-          ],
-          "answer": "0",
-          "description": "`x >> y` shifts the bits of `x` to the right by `y` positions, resulting in 0."
-        },
-        {
-          "id": "c_question50",
-          "question": "Which of the following is a valid way to initialize an array in C?",
-          "options": [
-            "{1, 2, 3}",
-            "[1, 2, 3]",
-            "(1, 2, 3)",
-            "<1, 2, 3>"
-          ],
-          "answer": "{1, 2, 3}",
-          "description": "Arrays in C are initialized using braces `{}` with comma-separated values."
-        }
-      ],
-      "C++": [
-        {
-          "id": "cpp_question1",
-          "question": "Who developed C++?",
-          "options": [
-            "Dennis Ritchie",
-            "Bjarne Stroustrup",
-            "James Gosling",
-            "Guido van Rossum"
-          ],
-          "answer": "Bjarne Stroustrup"
-        },
-        {
-          "id": "cpp_question2",
-          "question": "What is the default access specifier for members of a class in C++?",
-          "options": [
-            "public",
-            "private",
-            "protected",
-            "none"
-          ],
-          "answer": "private"
-        },
-        {
-          "id": "cpp_question3",
-          "question": "Which operator is used to allocate memory dynamically in C++?",
-          "options": [
-            "malloc",
-            "calloc",
-            "new",
-            "delete"
-          ],
-          "answer": "new"
-        },
-        {
-          "id": "cpp_question4",
-          "question": "Which of the following is a valid destructor for the class `Foo`?",
-          "options": [
-            "~Foo()",
-            "Foo()",
-            "Destructor_Foo()",
-            "void ~Foo()"
-          ],
-          "answer": "~Foo()"
-        },
-        {
-          "id": "cpp_question5",
-          "question": "Which of the following cannot be used with the keyword 'this'?",
-          "options": [
-            "static functions",
-            "member functions",
-            "constructor",
-            "destructor"
-          ],
-          "answer": "static functions"
-        },
-        {
-          "id": "cpp_question6",
-          "question": "Which of the following is a C++ access specifier?",
-          "options": [
-            "public",
-            "private",
-            "protected",
-            "All of the above"
-          ],
-          "answer": "All of the above"
-        },
-        {
-          "id": "cpp_question7",
-          "question": "What is the size of a double in C++?",
-          "options": [
-            "2 bytes",
-            "4 bytes",
-            "8 bytes",
-            "Depends on the compiler"
-          ],
-          "answer": "8 bytes"
-        },
-        {
-          "id": "cpp_question8",
-          "question": "What is the purpose of the `virtual` keyword in C++?",
-          "options": [
-            "To define a virtual function",
-            "To define a virtual class",
-            "To define a virtual variable",
-            "To define a virtual object"
-          ],
-          "answer": "To define a virtual function"
-        },
-        {
-          "id": "cpp_question9",
-          "question": "Which of the following is used to define a constant in C++?",
-          "options": [
-            "const",
-            "#define",
-            "Both",
-            "None"
-          ],
-          "answer": "Both"
-        },
-        {
-          "id": "cpp_question10",
-          "question": "Which of the following is not a valid type of inheritance in C++?",
-          "options": [
-            "Single",
-            "Multiple",
-            "Hierarchical",
-            "Virtual"
-          ],
-          "answer": "Virtual"
-        },
-        {
-          "id": "cpp_question11",
-          "question": "Which of the following is used to define an abstract class in C++?",
-          "options": [
-            "class",
-            "struct",
-            "union",
-            "None of the above"
-          ],
-          "answer": "class"
-        },
-        {
-          "id": "cpp_question12",
-          "question": "Which of the following is used to handle exceptions in C++?",
-          "options": [
-            "try",
-            "catch",
-            "throw",
-            "All of the above"
-          ],
-          "answer": "All of the above"
-        },
-        {
-          "id": "cpp_question13",
-          "question": "What is the correct syntax to declare a reference variable in C++?",
-          "options": [
-            "int& ref",
-            "int ref&",
-            "int ref*",
-            "int* ref"
-          ],
-          "answer": "int& ref"
-        },
-        {
-          "id": "cpp_question14",
-          "question": "Which of the following is used to overload an operator in C++?",
-          "options": [
-            "operator keyword",
-            "overload keyword",
-            "override keyword",
-            "None of the above"
-          ],
-          "answer": "operator keyword"
-        },
-        {
-          "id": "cpp_question15",
-          "question": "What is the output of the following code?\n```cpp\nint a = 5;\nstd::cout << ++a;\n```",
-          "options": [
-            "4",
-            "5",
-            "6",
-            "Error"
-          ],
-          "answer": "6"
-        },
-        {
-          "id": "cpp_question16",
-          "question": "Which of the following is not a valid namespace in C++?",
-          "options": [
-            "std",
-            "system",
-            "global",
-            "local"
-          ],
-          "answer": "system"
-        },
-        {
-          "id": "cpp_question17",
-          "question": "What is the output of the following code?\n```cpp\nint a = 5;\nstd::cout << a++;\n```",
-          "options": [
-            "4",
-            "5",
-            "6",
-            "Error"
-          ],
-          "answer": "5"
-        },
-        {
-          "id": "cpp_question18",
-          "question": "Which of the following is not a valid data type in C++?",
-          "options": [
-            "int",
-            "float",
-            "double",
-            "decimal"
-          ],
-          "answer": "decimal"
-        },
-        {
-          "id": "cpp_question19",
-          "question": "Which of the following is used to declare a template in C++?",
-          "options": [
-            "template",
-            "typedef",
-            "typeid",
-            "typename"
-          ],
-          "answer": "template"
-        },
-        {
-          "id": "cpp_question20",
-          "question": "What is the output of the following code?\n```cpp\nint a = 5;\nstd::cout << a * 2;\n```",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "10"
-          ],
-          "answer": "10"
-        },
-        {
-          "id": "cpp_question21",
-          "question": "Which of the following is used to declare a friend function in C++?",
-          "options": [
-            "friend",
-            "private",
-            "public",
-            "protected"
-          ],
-          "answer": "friend"
-        },
-        {
-          "id": "cpp_question22",
-          "question": "What is the output of the following code?\n```cpp\nint a = 5;\nstd::cout << a / 2;\n```",
-          "options": [
-            "2",
-            "2.5",
-            "3",
-            "Error"
-          ],
-          "answer": "2"
-        },
-        {
-          "id": "cpp_question23",
-          "question": "Which of the following is used to declare a pure virtual function in C++?",
-          "options": [
-            "virtual void func() = 0;",
-            "void func() = 0;",
-            "virtual void func() {}",
-            "void func() {}"
-          ],
-          "answer": "virtual void func() = 0;"
-        },
-        {
-          "id": "cpp_question24",
-          "question": "Which of the following is used to define a namespace in C++?",
-          "options": [
-            "namespace",
-            "class",
-            "struct",
-            "union"
-          ],
-          "answer": "namespace"
-        },
-        {
-          "id": "cpp_question25",
-          "question": "Which of the following is used to define a pointer to a member function in C++?",
-          "options": [
-            "pointer",
-            "function",
-            "member",
-            "None of the above"
-          ],
-          "answer": "None of the above"
-        },
-        {
-          "id": "cpp_question26",
-          "question": "Which of the following is used to access a member of a class in C++?",
-          "options": [
-            ".",
-            "->",
-            "::",
-            "*"
-          ],
-          "answer": "."
-        },
-        {
-          "id": "cpp_question27",
-          "question": "Which of the following is used to access a member of a structure in C++?",
-          "options": [
-            ".",
-            "->",
-            "::",
-            "*"
-          ],
-          "answer": "."
-        },
-        {
-          "id": "cpp_question28",
-          "question": "Which of the following is used to access a member of a union in C++?",
-          "options": [
-            ".",
-            "->",
-            "::",
-            "*"
-          ],
-          "answer": "."
-        },
-        {
-          "id": "cpp_question29",
-          "question": "Which of the following is used to access a member of an enum in C++?",
-          "options": [
-            ".",
-            "->",
-            "::",
-            "*"
-          ],
-          "answer": "::"
-        },
-        {
-          "id": "cpp_question30",
-          "question": "Which of the following is used to define a class in C++?",
-          "options": [
-            "class",
-            "struct",
-            "union",
-            "None of the above"
-          ],
-          "answer": "class"
-        },
-        {
-          "id": "cpp_question31",
-          "question": "Which of the following is used to define a struct in C++?",
-          "options": [
-            "class",
-            "struct",
-            "union",
-            "None of the above"
-          ],
-          "answer": "struct"
-        },
-        {
-          "id": "cpp_question32",
-          "question": "Which of the following is used to define a union in C++?",
-          "options": [
-            "class",
-            "struct",
-            "union",
-            "None of the above"
-          ],
-          "answer": "union"
-        },
-        {
-          "id": "cpp_question33",
-          "question": "Which of the following is used to define an enum in C++?",
-          "options": [
-            "enum",
-            "class",
-            "struct",
-            "union"
-          ],
-          "answer": "enum"
-        },
-        {
-          "id": "cpp_question34",
-          "question": "Which of the following is used to define a typedef in C++?",
-          "options": [
-            "typedef",
-            "class",
-            "struct",
-            "union"
-          ],
-          "answer": "typedef"
-        },
-        {
-          "id": "cpp_question35",
-          "question": "Which of the following is used to define a template in C++?",
-          "options": [
-            "template",
-            "typedef",
-            "typeid",
-            "typename"
-          ],
-          "answer": "template"
-        },
-        {
-          "id": "cpp_question36",
-          "question": "Which of the following is used to define a typeid in C++?",
-          "options": [
-            "typeid",
-            "typedef",
-            "template",
-            "typename"
-          ],
-          "answer": "typeid"
-        },
-        {
-          "id": "cpp_question37",
-          "question": "Which of the following is used to define a typename in C++?",
-          "options": [
-            "typename",
-            "typedef",
-            "template",
-            "typeid"
-          ],
-          "answer": "typename"
-        },
-        {
-          "id": "cpp_question38",
-          "question": "Which of the following is used to define a function in C++?",
-          "options": [
-            "function",
-            "class",
-            "struct",
-            "union"
-          ],
-          "answer": "function"
-        },
-        {
-          "id": "cpp_question39",
-          "question": "Which of the following is used to define a variable in C++?",
-          "options": [
-            "variable",
-            "class",
-            "struct",
-            "union"
-          ],
-          "answer": "variable"
-        },
-        {
-          "id": "cpp_question40",
-          "question": "Which of the following is used to define a constant in C++?",
-          "options": [
-            "const",
-            "#define",
-            "Both",
-            "None"
-          ],
-          "answer": "Both"
-        },
-        {
-          "id": "cpp_question41",
-          "question": "Which of the following is used to define a macro in C++?",
-          "options": [
-            "#define",
-            "const",
-            "Both",
-            "None"
-          ],
-          "answer": "#define"
-        },
-        {
-          "id": "cpp_question42",
-          "question": "Which of the following is used to define a preprocessor directive in C++?",
-          "options": [
-            "#define",
-            "const",
-            "Both",
-            "None"
-          ],
-          "answer": "#define"
-        },
-        {
-          "id": "cpp_question43",
-          "question": "Which of the following is used to define a header file in C++?",
-          "options": [
-            "#include",
-            "const",
-            "Both",
-            "None"
-          ],
-          "answer": "#include"
-        },
-        {
-          "id": "cpp_question44",
-          "question": "Which of the following is used to define a library in C++?",
-          "options": [
-            "#include",
-            "const",
-            "Both",
-            "None"
-          ],
-          "answer": "#include"
-        },
-        {
-          "id": "cpp_question45",
-          "question": "Which of the following is used to define a module in C++?",
-          "options": [
-            "#include",
-            "const",
-            "Both",
-            "None"
-          ],
-          "answer": "#include"
-        },
-        {
-          "id": "cpp_question46",
-          "question": "Which of the following is used to define a package in C++?",
-          "options": [
-            "#include",
-            "const",
-            "Both",
-            "None"
-          ],
-          "answer": "#include"
-        },
-        {
-          "id": "cpp_question47",
-          "question": "Which of the following is used to define a namespace in C++?",
-          "options": [
-            "namespace",
-            "class",
-            "struct",
-            "union"
-          ],
-          "answer": "namespace"
-        },
-        {
-          "id": "cpp_question48",
-          "question": "Which of the following is used to define a class in C++?",
-          "options": [
-            "class",
-            "struct",
-            "union",
-            "None of the above"
-          ],
-          "answer": "class"
-        },
-        {
-          "id": "cpp_question49",
-          "question": "Which of the following is used to define a struct in C++?",
-          "options": [
-            "class",
-            "struct",
-            "union",
-            "None of the above"
-          ],
-          "answer": "struct"
-        },
-        {
-          "id": "cpp_question50",
-          "question": "Which of the following is used to define a union in C++?",
-          "options": [
-            "class",
-            "struct",
-            "union",
-            "None of the above"
-          ],
-          "answer": "union"
-        }
-      ],
-      "Java": [
-        {
-          "id": "java_question1",
-          "question": "What is the default value of a boolean variable in Java?",
-          "options": [
-            "true",
-            "false",
-            "0",
-            "null"
-          ],
-          "answer": "false"
-        },
-        {
-          "id": "java_question2",
-          "question": "Which keyword is used to define a constant in Java?",
-          "options": [
-            "const",
-            "final",
-            "static",
-            "var"
-          ],
-          "answer": "final"
-        },
-        {
-          "id": "java_question3",
-          "question": "What is the output of the following code?\n```java\nint x = 5;\nSystem.out.println(++x);\n```",
-          "options": [
-            "4",
-            "5",
-            "6",
-            "Error"
-          ],
-          "answer": "6"
-        },
-        {
-          "id": "java_question4",
-          "question": "Which of the following is not a valid access modifier in Java?",
-          "options": [
-            "public",
-            "private",
-            "protected",
-            "package-private"
-          ],
-          "answer": "package-private"
-        },
-        {
-          "id": "java_question5",
-          "question": "What is the size of an int variable in Java?",
-          "options": [
-            "4 bits",
-            "8 bits",
-            "16 bits",
-            "32 bits"
-          ],
-          "answer": "32 bits"
-        },
-        {
-          "id": "java_question6",
-          "question": "Which of the following is a marker interface in Java?",
-          "options": [
-            "Serializable",
-            "Cloneable",
-            "Both Serializable and Cloneable",
-            "Runnable"
-          ],
-          "answer": "Both Serializable and Cloneable"
-        },
-        {
-          "id": "java_question7",
-          "question": "What is the output of the following code?\n```java\nString s = \"Hello\";\nSystem.out.println(s.charAt(0));\n```",
-          "options": [
-            "Hello",
-            "H",
-            "e",
-            "Error"
-          ],
-          "answer": "H"
-        },
-        {
-          "id": "java_question8",
-          "question": "Which of the following statements is true about Java exceptions?",
-          "options": [
-            "All exceptions are checked exceptions",
-            "All exceptions are unchecked exceptions",
-            "Java has no exception handling",
-            "Exceptions can be handled using try-catch blocks"
-          ],
-          "answer": "Exceptions can be handled using try-catch blocks"
-        },
-        {
-          "id": "java_question9",
-          "question": "What is the output of the following code?\n```java\nint x = 10;\nint y = 5;\nx %= y;\nSystem.out.println(x);\n```",
-          "options": [
-            "0",
-            "5",
-            "10",
-            "15"
-          ],
-          "answer": "0"
-        },
-        {
-          "id": "java_question10",
-          "question": "Which of the following is not a valid Java identifier?",
-          "options": [
-            "$myVar",
-            "my_Var",
-            "myVar123",
-            "123myVar"
-          ],
-          "answer": "123myVar"
-        },
-        {
-          "id": "java_question11",
-          "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a++);\n```",
-          "options": [
-            "4",
-            "5",
-            "6",
-            "Error"
-          ],
-          "answer": "5"
-        },
-        {
-          "id": "java_question12",
-          "question": "Which of the following is used to read input from the user in Java?",
-          "options": [
-            "System.in",
-            "Console.read",
-            "Scanner",
-            "InputReader"
-          ],
-          "answer": "Scanner"
-        },
-        {
-          "id": "java_question13",
-          "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a + 2);\n```",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "8"
-          ],
-          "answer": "7"
-        },
-        {
-          "id": "java_question14",
-          "question": "Which of the following is not a valid Java keyword?",
-          "options": [
-            "class",
-            "main",
-            "interface",
-            "abstract"
-          ],
-          "answer": "main"
-        },
-        {
-          "id": "java_question15",
-          "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a * 2);\n```",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "10"
-          ],
-          "answer": "10"
-        },
-        {
-          "id": "java_question16",
-          "question": "Which of the following is a valid method declaration in Java?",
-          "options": [
-            "void method()",
-            "method void()",
-            "method()",
-            "method(void)"
-          ],
-          "answer": "void method()"
-        },
-        {
-          "id": "java_question17",
-          "question": "What is the output of the following code?\n```java\nString s = null;\nSystem.out.println(s);\n```",
-          "options": [
-            "null",
-            "Error",
-            "Compilation error",
-            "Runtime error"
-          ],
-          "answer": "null"
-        },
-        {
-          "id": "java_question18",
-          "question": "Which of the following is a valid Java constructor?",
-          "options": [
-            "void constructor()",
-            "Constructor()",
-            "constructor(void)",
-            "None of the above"
-          ],
-          "answer": "None of the above"
-        },
-        {
-          "id": "java_question19",
-          "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(--a);\n```",
-          "options": [
-            "4",
-            "5",
-            "6",
-            "Error"
-          ],
-          "answer": "4"
-        },
-        {
-          "id": "java_question20",
-          "question": "Which of the following is a valid method overriding rule in Java?",
-          "options": [
-            "Return type should be different",
-            "Method name should be different",
-            "Both method name and return type should be same",
-            "None of the above"
-          ],
-          "answer": "Both method name and return type should be same"
-        },
-        {
-          "id": "java_question21",
-          "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a / 2);\n```",
-          "options": [
-            "2",
-            "2.5",
-            "3",
-            "Error"
-          ],
-          "answer": "2"
-        },
-        {
-          "id": "java_question22",
-          "question": "Which of the following is used to define an abstract method in Java?",
-          "options": [
-            "abstract void method();",
-            "void abstract method();",
-            "void method() abstract;",
-            "method() abstract void;"
-          ],
-          "answer": "abstract void method();"
-        },
-        {
-          "id": "java_question23",
-          "question": "What is the output of the following code?\n```java\nString s = \"Hello\";\nSystem.out.println(s.length());\n```",
-          "options": [
-            "Hello",
-            "H",
-            "5",
-            "Error"
-          ],
-          "answer": "5"
-        },
-        {
-          "id": "java_question24",
-          "question": "Which of the following is used to convert a string to uppercase in Java?",
-          "options": [
-            "toUpperCase()",
-            "toUpper()",
-            "upperCase()",
-            "toUpperCaseCase()"
-          ],
-          "answer": "toUpperCase()"
-        },
-        {
-          "id": "java_question25",
-          "question": "What is the output of the following code?\n```java\nint[] arr = {1, 2, 3};\nSystem.out.println(arr[0]);\n```",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "Error"
-          ],
-          "answer": "1"
-        },
-        {
-          "id": "java_question26",
-          "question": "Which of the following is used to declare a variable constant in Java?",
-          "options": [
-            "const int x;",
-            "final int x;",
-            "static int x;",
-            "const int x = 5;"
-          ],
-          "answer": "final int x;"
-        },
-        {
-          "id": "java_question27",
-          "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a += 2);\n```",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "8"
-          ],
-          "answer": "7"
-        },
-        {
-          "id": "java_question28",
-          "question": "Which of the following is not a valid Java data type?",
-          "options": [
-            "int",
-            "float",
-            "double",
-            "string"
-          ],
-          "answer": "string"
-        },
-        {
-          "id": "java_question29",
-          "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a -= 2);\n```",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "8"
-          ],
-          "answer": "3"
-        },
-        {
-          "id": "java_question30",
-          "question": "Which of the following is used to allocate memory dynamically in Java?",
-          "options": [
-            "malloc",
-            "calloc",
-            "new",
-            "delete"
-          ],
-          "answer": "new"
-        },
-        {
-          "id": "java_question31",
-          "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a * 2);\n```",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "10"
-          ],
-          "answer": "10"
-        },
-        {
-          "id": "java_question32",
-          "question": "Which of the following is not a valid Java keyword?",
-          "options": [
-            "class",
-            "interface",
-            "extends",
-            "method"
-          ],
-          "answer": "method"
-        },
-        {
-          "id": "java_question33",
-          "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a / 2);\n```",
-          "options": [
-            "2",
-            "2.5",
-            "3",
-            "Error"
-          ],
-          "answer": "2"
-        },
-        {
-          "id": "java_question34",
-          "question": "Which of the following is used to define a package in Java?",
-          "options": [
-            "package",
-            "namespace",
-            "module",
-            "lib"
-          ],
-          "answer": "package"
-        },
-        {
-          "id": "java_question35",
-          "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a % 2);\n```",
-          "options": [
-            "0",
-            "1",
-            "2",
-            "Error"
-          ],
-          "answer": "1"
-        },
-        {
-          "id": "java_question36",
-          "question": "Which of the following is used to define a class in Java?",
-          "options": [
-            "class",
-            "Class",
-            "struct",
-            "Class()"
-          ],
-          "answer": "class"
-        },
-        {
-          "id": "java_question37",
-          "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a++);\n```",
-          "options": [
-            "4",
-            "5",
-            "6",
-            "Error"
-          ],
-          "answer": "5"
-        },
-        {
-          "id": "java_question38",
-          "question": "Which of the following is not a valid Java identifier?",
-          "options": [
-            "myVar",
-            "_myVar",
-            "$myVar",
-            "123myVar"
-          ],
-          "answer": "123myVar"
-        },
-        {
-          "id": "java_question39",
-          "question": "What is the output of the following code?\n```java\nString s = null;\nSystem.out.println(s);\n```",
-          "options": [
-            "null",
-            "Error",
-            "Compilation error",
-            "Runtime error"
-          ],
-          "answer": "null"
-        },
-        {
-          "id": "java_question40",
-          "question": "Which of the following is used to define a constant in Java?",
-          "options": [
-            "const",
-            "final",
-            "static",
-            "var"
-          ],
-          "answer": "final"
-        },
-        {
-          "id": "java_question41",
-          "question": "What is the output of the following code?\n```java\nint x = 5;\nSystem.out.println(++x);\n```",
-          "options": [
-            "4",
-            "5",
-            "6",
-            "Error"
-          ],
-          "answer": "6"
-        },
-        {
-          "id": "java_question42",
-          "question": "Which of the following is a valid Java access modifier?",
-          "options": [
-            "private",
-            "friendly",
-            "protected",
-            "personal"
-          ],
-          "answer": "protected"
-        },
-        {
-          "id": "java_question43",
-          "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a += 2);\n```",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "8"
-          ],
-          "answer": "7"
-        },
-        {
-          "id": "java_question44",
-          "question": "Which of the following is used to define a constructor in Java?",
-          "options": [
-            "void constructor()",
-            "Constructor()",
-            "constructor(void)",
-            "None of the above"
-          ],
-          "answer": "None of the above"
-        },
-        {
-          "id": "java_question45",
-          "question": "What is the output of the following code?\n```java\nint[] arr = {1, 2, 3};\nSystem.out.println(arr[0]);\n```",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "Error"
-          ],
-          "answer": "1"
-        },
-        {
-          "id": "java_question46",
-          "question": "Which of the following is used to declare an interface in Java?",
-          "options": [
-            "interface",
-            "Interface",
-            "intf",
-            "inter"
-          ],
-          "answer": "interface"
-        },
-        {
-          "id": "java_question47",
-          "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a -= 2);\n```",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "8"
-          ],
-          "answer": "3"
-        },
-        {
-          "id": "java_question48",
-          "question": "Which of the following is used to declare a method in Java?",
-          "options": [
-            "method",
-            "Method",
-            "void method()",
-            "None of the above"
-          ],
-          "answer": "None of the above"
-        },
-        {
-          "id": "java_question49",
-          "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a * 2);\n```",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "10"
-          ],
-          "answer": "10"
-        },
-        {
-          "id": "java_question50",
-          "question": "Which of the following is a valid Java keyword?",
-          "options": [
-            "package",
-            "pkg",
-            "pack",
-            "pkg()"
-          ],
-          "answer": "package"
-        }
-      ],
-      "Python": [
-        {
-          "id": "python_question1",
-          "question": "What is the output of the following code?\n```python\nx = 5\nprint(++x)\n```",
-          "options": [
-            "4",
-            "5",
-            "6",
-            "Error"
-          ],
-          "answer": "Error"
-        },
-        {
-          "id": "python_question2",
-          "question": "Which keyword is used to define a function in Python?",
-          "options": [
-            "func",
-            "def",
-            "define",
-            "function"
-          ],
-          "answer": "def"
-        },
-        {
-          "id": "python_question3",
-          "question": "What is the output of the following code?\n```python\nx = 5\nprint(x++)\n```",
-          "options": [
-            "4",
-            "5",
-            "6",
-            "Error"
-          ],
-          "answer": "Error"
-        },
-        {
-          "id": "python_question4",
-          "question": "Which of the following is not a valid data type in Python?",
-          "options": [
-            "int",
-            "float",
-            "boolean",
-            "long"
-          ],
-          "answer": "long"
-        },
-        {
-          "id": "python_question5",
-          "question": "What is the output of the following code?\n```python\nx = 5\nprint(x ** 2)\n```",
-          "options": [
-            "5",
-            "10",
-            "25",
-            "Error"
-          ],
-          "answer": "25"
-        },
-        {
-          "id": "python_question6",
-          "question": "Which of the following is used to define a comment in Python?",
-          "options": [
-            "//",
-            "#",
-            "/* */",
-            "<!-- -->"
-          ],
-          "answer": "#"
-        },
-        {
-          "id": "python_question7",
-          "question": "What is the output of the following code?\n```python\nx = 5\ny = 2\nprint(x // y)\n```",
-          "options": [
-            "2.5",
-            "2",
-            "3",
-            "Error"
-          ],
-          "answer": "2"
-        },
-        {
-          "id": "python_question8",
-          "question": "Which of the following is used to check if two values are equal in Python?",
-          "options": [
-            "==",
-            "=",
-            "===",
-            "!="
-          ],
-          "answer": "=="
-        },
-        {
-          "id": "python_question9",
-          "question": "What is the output of the following code?\n```python\nx = 5\nprint(x % 2)\n```",
-          "options": [
-            "0",
-            "1",
-            "2",
-            "Error"
-          ],
-          "answer": "1"
-        },
-        {
-          "id": "python_question10",
-          "question": "Which of the following is used to define a list in Python?",
-          "options": [
-            "()",
-            "{}",
-            "[]",
-            "<>"
-          ],
-          "answer": "[]"
-        },
-        {
-          "id": "python_question11",
-          "question": "What is the output of the following code?\n```python\nx = 5\nprint(x * 2)\n```",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "10"
-          ],
-          "answer": "10"
-        },
-        {
-          "id": "python_question12",
-          "question": "Which of the following is used to define a tuple in Python?",
-          "options": [
-            "()",
-            "{}",
-            "[]",
-            "<>"
-          ],
-          "answer": "()"
-        },
-        {
-          "id": "python_question13",
-          "question": "What is the output of the following code?\n```python\nx = 5\nprint(x / 2)\n```",
-          "options": [
-            "2",
-            "2.5",
-            "3",
-            "Error"
-          ],
-          "answer": "2.5"
-        },
-        {
-          "id": "python_question14",
-          "question": "Which of the following is used to define a dictionary in Python?",
-          "options": [
-            "{}",
-            "()",
-            "[]",
-            "<>"
-          ],
-          "answer": "{}"
-        },
-        {
-          "id": "python_question15",
-          "question": "What is the output of the following code?\n```python\nx = 5\nprint(x += 2)\n```",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "Error"
-          ],
-          "answer": "Error"
-        },
-        {
-          "id": "python_question16",
-          "question": "Which of the following is used to define a set in Python?",
-          "options": [
-            "{}",
-            "()",
-            "[]",
-            "<>"
-          ],
-          "answer": "{}"
-        },
-        {
-          "id": "python_question17",
-          "question": "What is the output of the following code?\n```python\nx = 5\nprint(x -= 2)\n```",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "Error"
-          ],
-          "answer": "Error"
-        },
-        {
-          "id": "python_question18",
-          "question": "Which of the following is used to define a class in Python?",
-          "options": [
-            "class",
-            "Class",
-            "struct",
-            "Class()"
-          ],
-          "answer": "class"
-        },
-        {
-          "id": "python_question19",
-          "question": "What is the output of the following code?\n```python\nx = 5\nprint(x *= 2)\n```",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "10"
-          ],
-          "answer": "Error"
-        },
-        {
-          "id": "python_question20",
-          "question": "Which of the following is used to define a function in Python?",
-          "options": [
-            "func",
-            "def",
-            "define",
-            "function"
-          ],
-          "answer": "def"
-        },
-        {
-          "id": "python_question21",
-          "question": "What is the output of the following code?\n```python\nx = 5\nprint(x /= 2)\n```",
-          "options": [
-            "2",
-            "2.5",
-            "3",
-            "Error"
-          ],
-          "answer": "Error"
-        },
-        {
-          "id": "python_question22",
-          "question": "Which of the following is used to define a comment in Python?",
-          "options": [
-            "//",
-            "#",
-            "/* */",
-            "<!-- -->"
-          ],
-          "answer": "#"
-        },
-        {
-          "id": "python_question23",
-          "question": "What is the output of the following code?\n```python\nx = 5\ny = 2\nprint(x //= y)\n```",
-          "options": [
-            "2.5",
-            "2",
-            "3",
-            "Error"
-          ],
-          "answer": "Error"
-        },
-        {
-          "id": "python_question24",
-          "question": "Which of the following is used to check if two values are equal in Python?",
-          "options": [
-            "==",
-            "=",
-            "===",
-            "!="
-          ],
-          "answer": "=="
-        },
-        {
-          "id": "python_question25",
-          "question": "What is the output of the following code?\n```python\nx = 5\nprint(x %= 2)\n```",
-          "options": [
-            "0",
-            "1",
-            "2",
-            "Error"
-          ],
-          "answer": "Error"
-        },
-        {
-          "id": "python_question26",
-          "question": "Which of the following is used to define a list in Python?",
-          "options": [
-            "()",
-            "{}",
-            "[]",
-            "<>"
-          ],
-          "answer": "[]"
-        },
-        {
-          "id": "python_question27",
-          "question": "What is the output of the following code?\n```python\nx = 5\nprint(x ** 2)\n```",
-          "options": [
-            "5",
-            "10",
-            "25",
-            "Error"
-          ],
-          "answer": "25"
-        },
-        {
-          "id": "python_question28",
-          "question": "Which of the following is used to define a tuple in Python?",
-          "options": [
-            "()",
-            "{}",
-            "[]",
-            "<>"
-          ],
-          "answer": "()"
-        },
-        {
-          "id": "python_question29",
-          "question": "What is the output of the following code?\n```python\nx = 5\nprint(x * 2)\n```",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "10"
-          ],
-          "answer": "10"
-        },
-        {
-          "id": "python_question30",
-          "question": "Which of the following is used to define a dictionary in Python?",
-          "options": [
-            "{}",
-            "()",
-            "[]",
-            "<>"
-          ],
-          "answer": "{}"
-        },
-        {
-          "id": "python_question31",
-          "question": "What is the output of the following code?\n```python\nx = 5\nprint(x += 2)\n```",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "Error"
-          ],
-          "answer": "Error"
-        },
-        {
-          "id": "python_question32",
-          "question": "Which of the following is used to define a set in Python?",
-          "options": [
-            "{}",
-            "()",
-            "[]",
-            "<>"
-          ],
-          "answer": "{}"
-        },
-        {
-          "id": "python_question33",
-          "question": "What is the output of the following code?\n```python\nx = 5\nprint(x -= 2)\n```",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "Error"
-          ],
-          "answer": "Error"
-        },
-        {
-          "id": "python_question34",
-          "question": "Which of the following is used to define a class in Python?",
-          "options": [
-            "class",
-            "Class",
-            "struct",
-            "Class()"
-          ],
-          "answer": "class"
-        },
-        {
-          "id": "python_question35",
-          "question": "What is the output of the following code?\n```python\nx = 5\nprint(x *= 2)\n```",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "10"
-          ],
-          "answer": "Error"
-        },
-        {
-          "id": "python_question36",
-          "question": "Which of the following is used to define a function in Python?",
-          "options": [
-            "func",
-            "def",
-            "define",
-            "function"
-          ],
-          "answer": "def"
-        },
-        {
-          "id": "python_question37",
-          "question": "What is the output of the following code?\n```python\nx = 5\nprint(x /= 2)\n```",
-          "options": [
-            "2",
-            "2.5",
-            "3",
-            "Error"
-          ],
-          "answer": "Error"
-        },
-        {
-          "id": "python_question38",
-          "question": "Which of the following is used to define a comment in Python?",
-          "options": [
-            "//",
-            "#",
-            "/* */",
-            "<!-- -->"
-          ],
-          "answer": "#"
-        },
-        {
-          "id": "python_question39",
-          "question": "What is the output of the following code?\n```python\nx = 5\ny = 2\nprint(x //= y)\n```",
-          "options": [
-            "2.5",
-            "2",
-            "3",
-            "Error"
-          ],
-          "answer": "Error"
-        },
-        {
-          "id": "python_question40",
-          "question": "Which of the following is used to check if two values are equal in Python?",
-          "options": [
-            "==",
-            "=",
-            "===",
-            "!="
-          ],
-          "answer": "=="
-        },
-        {
-          "id": "python_question41",
-          "question": "What is the output of the following code?\n```python\nx = 5\nprint(x %= 2)\n```",
-          "options": [
-            "0",
-            "1",
-            "2",
-            "Error"
-          ],
-          "answer": "Error"
-        },
-        {
-          "id": "python_question42",
-          "question": "Which of the following is used to define a list in Python?",
-          "options": [
-            "()",
-            "{}",
-            "[]",
-            "<>"
-          ],
-          "answer": "[]"
-        },
-        {
-          "id": "python_question43",
-          "question": "What is the output of the following code?\n```python\nx = 5\nprint(x ** 2)\n```",
-          "options": [
-            "5",
-            "10",
-            "25",
-            "Error"
-          ],
-          "answer": "25"
-        },
-        {
-          "id": "python_question44",
-          "question": "Which of the following is used to define a tuple in Python?",
-          "options": [
-            "()",
-            "{}",
-            "[]",
-            "<>"
-          ],
-          "answer": "()"
-        },
-        {
-          "id": "python_question45",
-          "question": "What is the output of the following code?\n```python\nx = 5\nprint(x * 2)\n```",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "10"
-          ],
-          "answer": "10"
-        },
-        {
-          "id": "python_question46",
-          "question": "Which of the following is used to define a dictionary in Python?",
-          "options": [
-            "{}",
-            "()",
-            "[]",
-            "<>"
-          ],
-          "answer": "{}"
-        },
-        {
-          "id": "python_question47",
-          "question": "What is the output of the following code?\n```python\nx = 5\nprint(x += 2)\n```",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "8"
-          ],
-          "answer": "6"
-        }
-      ]
-    }
+  "questions": {
+    "C": [
+      {
+        "id": "c_question1",
+        "question": "How many data types are there in C?",
+        "options": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "answer": 4,
+        "description": "C has 4 primary data types: int, float, char, and double."
+      },
+      {
+        "id": "c_question2",
+        "question": "What is the size of an int in C?",
+        "options": [
+          "2 bytes",
+          "4 bytes",
+          "8 bytes",
+          "Depends on the compiler"
+        ],
+        "answer": "Depends on the compiler",
+        "description": "The size of int in C can vary depending on the compiler and system architecture."
+      },
+      {
+        "id": "c_question3",
+        "question": "Which of the following is not a valid C variable name?",
+        "options": [
+          "var_name",
+          "_var_name",
+          "2var_name",
+          "varName"
+        ],
+        "answer": "2var_name",
+        "description": "Variables in C cannot start with a digit."
+      },
+      {
+        "id": "c_question4",
+        "question": "Which symbol is used to declare a pointer in C?",
+        "options": [
+          "*",
+          "&",
+          "#",
+          "$"
+        ],
+        "answer": "*",
+        "description": "The asterisk (*) symbol is used to declare a pointer in C."
+      },
+      {
+        "id": "c_question5",
+        "question": "Which function is used to print formatted output in C?",
+        "options": [
+          "scanf",
+          "printf",
+          "print",
+          "fprint"
+        ],
+        "answer": "printf",
+        "description": "`printf` is used to print formatted output to the console in C."
+      },
+      {
+        "id": "c_question6",
+        "question": "Which of the following is the correct operator to compare two variables in C?",
+        "options": [
+          "=",
+          "==",
+          "!=",
+          "<>"
+        ],
+        "answer": "==",
+        "description": "`==` is the equality operator used to compare two variables in C."
+      },
+      {
+        "id": "c_question7",
+        "question": "What does the `sizeof` operator do?",
+        "options": [
+          "Returns the number of elements in an array",
+          "Returns the size of a variable",
+          "Returns the length of a string",
+          "Returns the number of arguments passed"
+        ],
+        "answer": "Returns the size of a variable",
+        "description": "`sizeof` returns the size of a variable or data type in bytes."
+      },
+      {
+        "id": "c_question8",
+        "question": "Which header file is required for using the `printf` function?",
+        "options": [
+          "<conio.h>",
+          "<stdio.h>",
+          "<stdlib.h>",
+          "<string.h>"
+        ],
+        "answer": "<stdio.h>",
+        "description": "`<stdio.h>` is the standard input/output header file required for using `printf` in C."
+      },
+      {
+        "id": "c_question9",
+        "question": "What is a pointer in C?",
+        "options": [
+          "A variable that stores a memory address",
+          "A variable that stores an integer",
+          "A function",
+          "An operator"
+        ],
+        "answer": "A variable that stores a memory address",
+        "description": "A pointer in C is a variable that stores the memory address of another variable."
+      },
+      {
+        "id": "c_question10",
+        "question": "What is the correct way to declare a function in C?",
+        "options": [
+          "function_name;",
+          "void function_name();",
+          "function_name(){}",
+          "function_name: void;"
+        ],
+        "answer": "void function_name();",
+        "description": "In C, functions are declared using the syntax `return_type function_name(parameters);`. The `void` keyword specifies that the function does not return a value."
+      },
+      {
+        "id": "c_question11",
+        "question": "Which of the following is used for comments in C?",
+        "options": [
+          "// comment",
+          "/* comment */",
+          "# comment",
+          "% comment"
+        ],
+        "answer": "/* comment */",
+        "description": "`/* comment */` is used for block comments in C."
+      },
+      {
+        "id": "c_question12",
+        "question": "What is the output of the following code?\n```c\nint a = 5;\nint b = 2;\nprintf(\"%d\", a % b);\n```",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "1",
+        "description": "`%` is the modulo operator in C, which computes the remainder of `a` divided by `b`. Therefore, `a % b` equals 1."
+      },
+      {
+        "id": "c_question13",
+        "question": "What does the `break` statement do in a loop?",
+        "options": [
+          "Exits the loop",
+          "Skips the current iteration",
+          "Continues to the next iteration",
+          "Restarts the loop"
+        ],
+        "answer": "Exits the loop",
+        "description": "`break` is used to exit the loop prematurely."
+      },
+      {
+        "id": "c_question14",
+        "question": "What is the value of `x` after the following code?\n```c\nint x = 10;\nint y = 5;\nx += y;\n```",
+        "options": [
+          "10",
+          "5",
+          "15",
+          "20"
+        ],
+        "answer": "15",
+        "description": "`x += y;` is shorthand for `x = x + y;`. Therefore, `x` will be 15 after execution."
+      },
+      {
+        "id": "c_question15",
+        "question": "What is the output of the following code?\n```c\nint a = 5;\nprintf(\"%d\", a++);\n```",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "Error"
+        ],
+        "answer": "5",
+        "description": "The `printf` function prints the current value of `a` (which is 5) and then increments `a` by 1 due to the post-increment operator (`a++`). Therefore, the output is 5."
+      },
+      {
+        "id": "c_question16",
+        "question": "Which of the following is not a loop structure in C?",
+        "options": [
+          "for",
+          "while",
+          "do-while",
+          "foreach"
+        ],
+        "answer": "foreach",
+        "description": "`foreach` is not a loop structure in C."
+      },
+      {
+        "id": "c_question17",
+        "question": "What is the return type of the `malloc` function?",
+        "options": [
+          "int",
+          "void",
+          "void*",
+          "char*"
+        ],
+        "answer": "void*",
+        "description": "`malloc` returns a void pointer (`void*`) which can be cast to any other pointer type."
+      },
+      {
+        "id": "c_question18",
+        "question": "What is the purpose of the `#define` directive?",
+        "options": [
+          "To define a macro",
+          "To define a function",
+          "To define a variable",
+          "To define a constant"
+        ],
+        "answer": "To define a macro",
+        "description": "`#define` is used to define macros in C, which are replaced by their values during preprocessing."
+      },
+      {
+        "id": "c_question19",
+        "question": "What is the correct way to declare an array in C?",
+        "options": [
+          "int array[];",
+          "int array[10];",
+          "array int[10];",
+          "array[10] int;"
+        ],
+        "answer": "int array[10];",
+        "description": "Arrays in C are declared using square brackets `[]` to specify the size of the array."
+      },
+      {
+        "id": "c_question20",
+        "question": "Which function is used to read a single character from the standard input in C?",
+        "options": [
+          "scanf",
+          "getchar",
+          "gets",
+          "fgets"
+        ],
+        "answer": "getchar",
+        "description": "`getchar` is used to read a single character from the standard input (keyboard) in C."
+      },
+      {
+        "id": "c_question21",
+        "question": "Which of the following is a storage class specifier in C?",
+        "options": [
+          "auto",
+          "register",
+          "static",
+          "All of the above"
+        ],
+        "answer": "All of the above",
+        "description": "`auto`, `register`, and `static` are all storage class specifiers in C."
+      },
+      {
+        "id": "c_question22",
+        "question": "What does the `continue` statement do in a loop?",
+        "options": [
+          "Exits the loop",
+          "Skips the current iteration",
+          "Continues to the next iteration",
+          "Restarts the loop"
+        ],
+        "answer": "Continues to the next iteration",
+        "description": "`continue` skips the remaining code in the loop for the current iteration and continues with the next iteration."
+      },
+      {
+        "id": "c_question23",
+        "question": "What is the output of the following code?\n```c\nint x = 5;\nint y = 2;\nprintf(\"%d\", x / y);\n```",
+        "options": [
+          "2",
+          "2.5",
+          "2.0",
+          "Error"
+        ],
+        "answer": "2",
+        "description": "In integer division in C, the result is always an integer. Therefore, `x / y` equals 2."
+      },
+      {
+        "id": "c_question24",
+        "question": "What is the correct syntax for a `do-while` loop in C?",
+        "options": [
+          "do { /* code */ } while (condition);",
+          "while (condition) { /* code */ } do;",
+          "do while (condition) { /* code */ };",
+          "do (condition) { /* code */ } while;"
+        ],
+        "answer": "do { /* code */ } while (condition);",
+        "description": "`do-while` loops in C are written with the `do { /* code */ } while (condition);` syntax."
+      },
+      {
+        "id": "c_question25",
+        "question": "What is the output of the following code?\n```c\nint a = 5;\nint b = 2;\nprintf(\"%d\", a / b);\n```",
+        "options": [
+          "2",
+          "2.5",
+          "3",
+          "Error"
+        ],
+        "answer": "2",
+        "description": "In C, when two integers are divided, the result is also an integer. The fractional part is discarded (truncated). In this code, `a` is 5 and `b` is 2. When `a` is divided by `b`, the result is 2 (since 5 divided by 2 is 2.5, and the .5 is discarded). Therefore, the output of the code is `2`."
+      },
+      {
+        "id": "c_question26",
+        "question": "What does the `void` keyword indicate in a function declaration in C?",
+        "options": [
+          "It indicates that the function returns no value",
+          "It indicates that the function is undefined",
+          "It indicates that the function is private",
+          "It indicates that the function is public"
+        ],
+        "answer": "It indicates that the function returns no value",
+        "description": "The `void` keyword in a function declaration indicates that the function does not return any value."
+      },
+      {
+        "id": "c_question27",
+        "question": "Which of the following is true about `const` qualifier in C?",
+        "options": [
+          "It makes a variable read-only",
+          "It makes a variable constant",
+          "It makes a variable non-modifiable",
+          "All of the above"
+        ],
+        "answer": "All of the above",
+        "description": "`const` qualifier in C makes a variable read-only, constant, and non-modifiable."
+      },
+      {
+        "id": "c_question28",
+        "question": "What is the purpose of the `enum` keyword in C?",
+        "options": [
+          "To define a new data type",
+          "To define a constant value",
+          "To define a macro",
+          "To define a structure"
+        ],
+        "answer": "To define a new data type",
+        "description": "The `enum` keyword in C is used to define an enumeration, which is a new data type consisting of a set of named constants."
+      },
+      {
+        "id": "c_question29",
+        "question": "What is the correct way to declare a structure in C?",
+        "options": [
+          "struct MyStruct {}",
+          "MyStruct { struct }",
+          "struct { MyStruct }",
+          "typedef struct {} MyStruct;"
+        ],
+        "answer": "typedef struct {} MyStruct;",
+        "description": "In C, structures are declared using `struct` keyword followed by the structure definition. Using `typedef` allows creating a new type alias."
+      },
+      {
+        "id": "c_question30",
+        "question": "Which operator is used to access structure members in C?",
+        "options": [
+          ".",
+          "->",
+          "::",
+          "=>"
+        ],
+        "answer": ".",
+        "description": "The dot (`.`) operator is used to access structure members in C."
+      },
+      {
+        "id": "c_question31",
+        "question": "What does the `typedef` keyword do in C?",
+        "options": [
+          "It declares a new type alias",
+          "It declares a new variable",
+          "It declares a new function",
+          "It declares a new structure"
+        ],
+        "answer": "It declares a new type alias",
+        "description": "`typedef` in C is used to create a new type alias or synonym."
+      },
+      {
+        "id": "c_question32",
+        "question": "Which function is used to dynamically allocate memory in C?",
+        "options": [
+          "calloc",
+          "malloc",
+          "realloc",
+          "free"
+        ],
+        "answer": "malloc",
+        "description": "`malloc` is used for dynamic memory allocation in C."
+      },
+      {
+        "id": "c_question33",
+        "question": "What is the purpose of the `static` keyword in C?",
+        "options": [
+          "To define a global variable",
+          "To define a local variable",
+          "To limit the scope of a variable",
+          "To preserve the value of a variable"
+        ],
+        "answer": "To preserve the value of a variable",
+        "description": "`static` in C preserves the value of a variable across function calls."
+      },
+      {
+        "id": "c_question34",
+        "question": "What is the output of the following code?\n```c\nint x = 5;\nif (x > 3) {\n    printf(\"Hello\");\n} else {\n    printf(\"World\");\n}\n```",
+        "options": [
+          "Hello",
+          "World",
+          "HelloWorld",
+          "Error"
+        ],
+        "answer": "Hello",
+        "description": "Since `x` is greater than 3, the condition `x > 3` evaluates to true, so `Hello` will be printed."
+      },
+      {
+        "id": "c_question35",
+        "question": "What is the output of the following code?\n```c\nint x = 2;\nswitch (x) {\n    case 1:\n        printf(\"One\");\n        break;\n    case 2:\n        printf(\"Two\");\n        break;\n    default:\n        printf(\"Default\");\n}\n```",
+        "options": [
+          "One",
+          "Two",
+          "Default",
+          "Error"
+        ],
+        "answer": "Two",
+        "description": "The value of `x` is 2, so `case 2` will match and `Two` will be printed. The `break` statement prevents fall-through to the `default` case."
+      },
+      {
+        "id": "c_question36",
+        "question": "Which of the following is true about `sizeof` operator in C?",
+        "options": [
+          "It returns the size of a variable",
+          "It returns the size of an array",
+          "It returns the size of a data type",
+          "All of the above"
+        ],
+        "answer": "All of the above",
+        "description": "`sizeof` operator in C returns the size of a variable, an array, or a data type in bytes."
+      },
+      {
+        "id": "c_question37",
+        "question": "What is the output of the following code?\n```c\nint x = 3;\nint y = 2;\nprintf(\"%d\", x * y);\n```",
+        "options": [
+          "5",
+          "6",
+          "10",
+          "Error"
+        ],
+        "answer": "6",
+        "description": "`x * y` multiplies `x` and `y`, resulting in 6, which is then printed."
+      },
+      {
+        "id": "c_question38",
+        "question": "What is the purpose of `break` statement in a `switch` statement?",
+        "options": [
+          "To exit the switch statement",
+          "To skip the current case",
+          "To continue to the next case",
+          "To restart the switch statement"
+        ],
+        "answer": "To exit the switch statement",
+        "description": "`break` in a `switch` statement is used to exit the `switch` block after a case is executed."
+      },
+      {
+        "id": "c_question39",
+        "question": "Which of the following is a unary operator in C?",
+        "options": [
+          "+",
+          "-",
+          "*",
+          "/"
+        ],
+        "answer": "-",
+        "description": "`-` is a unary operator in C, used for negation or to indicate a negative number."
+      },
+      {
+        "id": "c_question40",
+        "question": "What is the output of the following code?\n```c\nint x = 10;\nint y = 5;\nprintf(\"%d\", x - y);\n```",
+        "options": [
+          "5",
+          "10",
+          "15",
+          "Error"
+        ],
+        "answer": "5",
+        "description": "`x - y` subtracts `y` from `x`, resulting in 5, which is then printed."
+      },
+      {
+        "id": "c_question41",
+        "question": "What is the purpose of `continue` statement in a loop?",
+        "options": [
+          "To exit the loop",
+          "To skip the current iteration",
+          "To restart the loop",
+          "To continue to the next iteration"
+        ],
+        "answer": "To continue to the next iteration",
+        "description": "`continue` statement skips the remaining code in the loop for the current iteration and continues with the next iteration."
+      },
+      {
+        "id": "c_question42",
+        "question": "What does the `#include` directive do in C?",
+        "options": [
+          "It includes a header file",
+          "It includes a library",
+          "It includes a function",
+          "It includes a macro"
+        ],
+        "answer": "It includes a header file",
+        "description": "`#include` directive in C is used to include header files containing declarations needed for a program."
+      },
+      {
+        "id": "c_question43",
+        "question": "What is the output of the following code?\n```c\nint x = 2;\nprintf(\"%d\", ++x);\n```",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "Error"
+        ],
+        "answer": "3",
+        "description": "`++x` increments `x` by 1 before printing, so the output is 3."
+      },
+      {
+        "id": "c_question44",
+        "question": "What is the purpose of the `NULL` macro in C?",
+        "options": [
+          "To define a null character",
+          "To define a null string",
+          "To define a null pointer",
+          "To define a null variable"
+        ],
+        "answer": "To define a null pointer",
+        "description": "`NULL` macro in C is used to define a null pointer, typically used to signify that a pointer does not point to a valid object."
+      },
+      {
+        "id": "c_question45",
+        "question": "Which function is used to free dynamically allocated memory in C?",
+        "options": [
+          "calloc",
+          "malloc",
+          "realloc",
+          "free"
+        ],
+        "answer": "free",
+        "description": "`free` function in C is used to deallocate dynamically allocated memory."
+      },
+      {
+        "id": "c_question46",
+        "question": "What is the purpose of the `#ifdef` directive in C?",
+        "options": [
+          "To define a conditional compilation",
+          "To include a header file",
+          "To declare a variable",
+          "To define a macro"
+        ],
+        "answer": "To define a conditional compilation",
+        "description": "`#ifdef` directive in C checks whether a macro has been defined before including code in the compilation process."
+      },
+      {
+        "id": "c_question47",
+        "question": "What is the output of the following code?\n```c\nint x = 2;\nint y = 4;\nprintf(\"%d\", x << y);\n```",
+        "options": [
+          "8",
+          "16",
+          "32",
+          "64"
+        ],
+        "answer": "32",
+        "description": "`x << y` shifts the bits of `x` to the left by `y` positions, which results in 32."
+      },
+      {
+        "id": "c_question48",
+        "question": "What is the purpose of the `volatile` keyword in C?",
+        "options": [
+          "To declare a constant",
+          "To declare a variable",
+          "To indicate a variable may change unexpectedly",
+          "To indicate a variable won't change"
+        ],
+        "answer": "To indicate a variable may change unexpectedly",
+        "description": "`volatile` keyword in C indicates that a variable may be changed unexpectedly, often used in device drivers or multi-threaded programs."
+      },
+      {
+        "id": "c_question49",
+        "question": "What is the output of the following code?\n```c\nint x = 2;\nint y = 4;\nprintf(\"%d\", x >> y);\n```",
+        "options": [
+          "1",
+          "2",
+          "4",
+          "8"
+        ],
+        "answer": "0",
+        "description": "`x >> y` shifts the bits of `x` to the right by `y` positions, resulting in 0."
+      },
+      {
+        "id": "c_question50",
+        "question": "Which of the following is a valid way to initialize an array in C?",
+        "options": [
+          "{1, 2, 3}",
+          "[1, 2, 3]",
+          "(1, 2, 3)",
+          "<1, 2, 3>"
+        ],
+        "answer": "{1, 2, 3}",
+        "description": "Arrays in C are initialized using braces `{}` with comma-separated values."
+      }
+    ],
+    "C++": [
+      {
+        "id": "cpp_question1",
+        "question": "Who developed C++?",
+        "options": [
+          "Dennis Ritchie",
+          "Bjarne Stroustrup",
+          "James Gosling",
+          "Guido van Rossum"
+        ],
+        "answer": "Bjarne Stroustrup"
+      },
+      {
+        "id": "cpp_question2",
+        "question": "What is the default access specifier for members of a class in C++?",
+        "options": [
+          "public",
+          "private",
+          "protected",
+          "none"
+        ],
+        "answer": "private"
+      },
+      {
+        "id": "cpp_question3",
+        "question": "Which operator is used to allocate memory dynamically in C++?",
+        "options": [
+          "malloc",
+          "calloc",
+          "new",
+          "delete"
+        ],
+        "answer": "new"
+      },
+      {
+        "id": "cpp_question4",
+        "question": "Which of the following is a valid destructor for the class `Foo`?",
+        "options": [
+          "~Foo()",
+          "Foo()",
+          "Destructor_Foo()",
+          "void ~Foo()"
+        ],
+        "answer": "~Foo()"
+      },
+      {
+        "id": "cpp_question5",
+        "question": "Which of the following cannot be used with the keyword 'this'?",
+        "options": [
+          "static functions",
+          "member functions",
+          "constructor",
+          "destructor"
+        ],
+        "answer": "static functions"
+      },
+      {
+        "id": "cpp_question6",
+        "question": "Which of the following is a C++ access specifier?",
+        "options": [
+          "public",
+          "private",
+          "protected",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": "cpp_question7",
+        "question": "What is the size of a double in C++?",
+        "options": [
+          "2 bytes",
+          "4 bytes",
+          "8 bytes",
+          "Depends on the compiler"
+        ],
+        "answer": "8 bytes"
+      },
+      {
+        "id": "cpp_question8",
+        "question": "What is the purpose of the `virtual` keyword in C++?",
+        "options": [
+          "To define a virtual function",
+          "To define a virtual class",
+          "To define a virtual variable",
+          "To define a virtual object"
+        ],
+        "answer": "To define a virtual function"
+      },
+      {
+        "id": "cpp_question9",
+        "question": "Which of the following is used to define a constant in C++?",
+        "options": [
+          "const",
+          "#define",
+          "Both",
+          "None"
+        ],
+        "answer": "Both"
+      },
+      {
+        "id": "cpp_question10",
+        "question": "Which of the following is not a valid type of inheritance in C++?",
+        "options": [
+          "Single",
+          "Multiple",
+          "Hierarchical",
+          "Virtual"
+        ],
+        "answer": "Virtual"
+      },
+      {
+        "id": "cpp_question11",
+        "question": "Which of the following is used to define an abstract class in C++?",
+        "options": [
+          "class",
+          "struct",
+          "union",
+          "None of the above"
+        ],
+        "answer": "class"
+      },
+      {
+        "id": "cpp_question12",
+        "question": "Which of the following is used to handle exceptions in C++?",
+        "options": [
+          "try",
+          "catch",
+          "throw",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": "cpp_question13",
+        "question": "What is the correct syntax to declare a reference variable in C++?",
+        "options": [
+          "int& ref",
+          "int ref&",
+          "int ref*",
+          "int* ref"
+        ],
+        "answer": "int& ref"
+      },
+      {
+        "id": "cpp_question14",
+        "question": "Which of the following is used to overload an operator in C++?",
+        "options": [
+          "operator keyword",
+          "overload keyword",
+          "override keyword",
+          "None of the above"
+        ],
+        "answer": "operator keyword"
+      },
+      {
+        "id": "cpp_question15",
+        "question": "What is the output of the following code?\n```cpp\nint a = 5;\nstd::cout << ++a;\n```",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "Error"
+        ],
+        "answer": "6"
+      },
+      {
+        "id": "cpp_question16",
+        "question": "Which of the following is not a valid namespace in C++?",
+        "options": [
+          "std",
+          "system",
+          "global",
+          "local"
+        ],
+        "answer": "system"
+      },
+      {
+        "id": "cpp_question17",
+        "question": "What is the output of the following code?\n```cpp\nint a = 5;\nstd::cout << a++;\n```",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "Error"
+        ],
+        "answer": "5"
+      },
+      {
+        "id": "cpp_question18",
+        "question": "Which of the following is not a valid data type in C++?",
+        "options": [
+          "int",
+          "float",
+          "double",
+          "decimal"
+        ],
+        "answer": "decimal"
+      },
+      {
+        "id": "cpp_question19",
+        "question": "Which of the following is used to declare a template in C++?",
+        "options": [
+          "template",
+          "typedef",
+          "typeid",
+          "typename"
+        ],
+        "answer": "template"
+      },
+      {
+        "id": "cpp_question20",
+        "question": "What is the output of the following code?\n```cpp\nint a = 5;\nstd::cout << a * 2;\n```",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "10"
+        ],
+        "answer": "10"
+      },
+      {
+        "id": "cpp_question21",
+        "question": "Which of the following is used to declare a friend function in C++?",
+        "options": [
+          "friend",
+          "private",
+          "public",
+          "protected"
+        ],
+        "answer": "friend"
+      },
+      {
+        "id": "cpp_question22",
+        "question": "What is the output of the following code?\n```cpp\nint a = 5;\nstd::cout << a / 2;\n```",
+        "options": [
+          "2",
+          "2.5",
+          "3",
+          "Error"
+        ],
+        "answer": "2"
+      },
+      {
+        "id": "cpp_question23",
+        "question": "Which of the following is used to declare a pure virtual function in C++?",
+        "options": [
+          "virtual void func() = 0;",
+          "void func() = 0;",
+          "virtual void func() {}",
+          "void func() {}"
+        ],
+        "answer": "virtual void func() = 0;"
+      },
+      {
+        "id": "cpp_question24",
+        "question": "Which of the following is used to define a namespace in C++?",
+        "options": [
+          "namespace",
+          "class",
+          "struct",
+          "union"
+        ],
+        "answer": "namespace"
+      },
+      {
+        "id": "cpp_question25",
+        "question": "Which of the following is used to define a pointer to a member function in C++?",
+        "options": [
+          "pointer",
+          "function",
+          "member",
+          "None of the above"
+        ],
+        "answer": "None of the above"
+      },
+      {
+        "id": "cpp_question26",
+        "question": "Which of the following is used to access a member of a class in C++?",
+        "options": [
+          ".",
+          "->",
+          "::",
+          "*"
+        ],
+        "answer": "."
+      },
+      {
+        "id": "cpp_question27",
+        "question": "Which of the following is used to access a member of a structure in C++?",
+        "options": [
+          ".",
+          "->",
+          "::",
+          "*"
+        ],
+        "answer": "."
+      },
+      {
+        "id": "cpp_question28",
+        "question": "Which of the following is used to access a member of a union in C++?",
+        "options": [
+          ".",
+          "->",
+          "::",
+          "*"
+        ],
+        "answer": "."
+      },
+      {
+        "id": "cpp_question29",
+        "question": "Which of the following is used to access a member of an enum in C++?",
+        "options": [
+          ".",
+          "->",
+          "::",
+          "*"
+        ],
+        "answer": "::"
+      },
+      {
+        "id": "cpp_question30",
+        "question": "Which of the following is used to define a class in C++?",
+        "options": [
+          "class",
+          "struct",
+          "union",
+          "None of the above"
+        ],
+        "answer": "class"
+      },
+      {
+        "id": "cpp_question31",
+        "question": "Which of the following is used to define a struct in C++?",
+        "options": [
+          "class",
+          "struct",
+          "union",
+          "None of the above"
+        ],
+        "answer": "struct"
+      },
+      {
+        "id": "cpp_question32",
+        "question": "Which of the following is used to define a union in C++?",
+        "options": [
+          "class",
+          "struct",
+          "union",
+          "None of the above"
+        ],
+        "answer": "union"
+      },
+      {
+        "id": "cpp_question33",
+        "question": "Which of the following is used to define an enum in C++?",
+        "options": [
+          "enum",
+          "class",
+          "struct",
+          "union"
+        ],
+        "answer": "enum"
+      },
+      {
+        "id": "cpp_question34",
+        "question": "Which of the following is used to define a typedef in C++?",
+        "options": [
+          "typedef",
+          "class",
+          "struct",
+          "union"
+        ],
+        "answer": "typedef"
+      },
+      {
+        "id": "cpp_question35",
+        "question": "Which of the following is used to define a template in C++?",
+        "options": [
+          "template",
+          "typedef",
+          "typeid",
+          "typename"
+        ],
+        "answer": "template"
+      },
+      {
+        "id": "cpp_question36",
+        "question": "Which of the following is used to define a typeid in C++?",
+        "options": [
+          "typeid",
+          "typedef",
+          "template",
+          "typename"
+        ],
+        "answer": "typeid"
+      },
+      {
+        "id": "cpp_question37",
+        "question": "Which of the following is used to define a typename in C++?",
+        "options": [
+          "typename",
+          "typedef",
+          "template",
+          "typeid"
+        ],
+        "answer": "typename"
+      },
+      {
+        "id": "cpp_question38",
+        "question": "Which of the following is used to define a function in C++?",
+        "options": [
+          "function",
+          "class",
+          "struct",
+          "union"
+        ],
+        "answer": "function"
+      },
+      {
+        "id": "cpp_question39",
+        "question": "Which of the following is used to define a variable in C++?",
+        "options": [
+          "variable",
+          "class",
+          "struct",
+          "union"
+        ],
+        "answer": "variable"
+      },
+      {
+        "id": "cpp_question40",
+        "question": "Which of the following is used to define a constant in C++?",
+        "options": [
+          "const",
+          "#define",
+          "Both",
+          "None"
+        ],
+        "answer": "Both"
+      },
+      {
+        "id": "cpp_question41",
+        "question": "Which of the following is used to define a macro in C++?",
+        "options": [
+          "#define",
+          "const",
+          "Both",
+          "None"
+        ],
+        "answer": "#define"
+      },
+      {
+        "id": "cpp_question42",
+        "question": "Which of the following is used to define a preprocessor directive in C++?",
+        "options": [
+          "#define",
+          "const",
+          "Both",
+          "None"
+        ],
+        "answer": "#define"
+      },
+      {
+        "id": "cpp_question43",
+        "question": "Which of the following is used to define a header file in C++?",
+        "options": [
+          "#include",
+          "const",
+          "Both",
+          "None"
+        ],
+        "answer": "#include"
+      },
+      {
+        "id": "cpp_question44",
+        "question": "Which of the following is used to define a library in C++?",
+        "options": [
+          "#include",
+          "const",
+          "Both",
+          "None"
+        ],
+        "answer": "#include"
+      },
+      {
+        "id": "cpp_question45",
+        "question": "Which of the following is used to define a module in C++?",
+        "options": [
+          "#include",
+          "const",
+          "Both",
+          "None"
+        ],
+        "answer": "#include"
+      },
+      {
+        "id": "cpp_question46",
+        "question": "Which of the following is used to define a package in C++?",
+        "options": [
+          "#include",
+          "const",
+          "Both",
+          "None"
+        ],
+        "answer": "#include"
+      },
+      {
+        "id": "cpp_question47",
+        "question": "Which of the following is used to define a namespace in C++?",
+        "options": [
+          "namespace",
+          "class",
+          "struct",
+          "union"
+        ],
+        "answer": "namespace"
+      },
+      {
+        "id": "cpp_question48",
+        "question": "Which of the following is used to define a class in C++?",
+        "options": [
+          "class",
+          "struct",
+          "union",
+          "None of the above"
+        ],
+        "answer": "class"
+      },
+      {
+        "id": "cpp_question49",
+        "question": "Which of the following is used to define a struct in C++?",
+        "options": [
+          "class",
+          "struct",
+          "union",
+          "None of the above"
+        ],
+        "answer": "struct"
+      },
+      {
+        "id": "cpp_question50",
+        "question": "Which of the following is used to define a union in C++?",
+        "options": [
+          "class",
+          "struct",
+          "union",
+          "None of the above"
+        ],
+        "answer": "union"
+      }
+    ],
+    "Java": [
+      {
+        "id": "java_question1",
+        "question": "What is the default value of a boolean variable in Java?",
+        "options": [
+          "true",
+          "false",
+          "0",
+          "null"
+        ],
+        "answer": "false"
+      },
+      {
+        "id": "java_question2",
+        "question": "Which keyword is used to define a constant in Java?",
+        "options": [
+          "const",
+          "final",
+          "static",
+          "var"
+        ],
+        "answer": "final"
+      },
+      {
+        "id": "java_question3",
+        "question": "What is the output of the following code?\n```java\nint x = 5;\nSystem.out.println(++x);\n```",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "Error"
+        ],
+        "answer": "6"
+      },
+      {
+        "id": "java_question4",
+        "question": "Which of the following is not a valid access modifier in Java?",
+        "options": [
+          "public",
+          "private",
+          "protected",
+          "package-private"
+        ],
+        "answer": "package-private"
+      },
+      {
+        "id": "java_question5",
+        "question": "What is the size of an int variable in Java?",
+        "options": [
+          "4 bits",
+          "8 bits",
+          "16 bits",
+          "32 bits"
+        ],
+        "answer": "32 bits"
+      },
+      {
+        "id": "java_question6",
+        "question": "Which of the following is a marker interface in Java?",
+        "options": [
+          "Serializable",
+          "Cloneable",
+          "Both Serializable and Cloneable",
+          "Runnable"
+        ],
+        "answer": "Both Serializable and Cloneable"
+      },
+      {
+        "id": "java_question7",
+        "question": "What is the output of the following code?\n```java\nString s = \"Hello\";\nSystem.out.println(s.charAt(0));\n```",
+        "options": [
+          "Hello",
+          "H",
+          "e",
+          "Error"
+        ],
+        "answer": "H"
+      },
+      {
+        "id": "java_question8",
+        "question": "Which of the following statements is true about Java exceptions?",
+        "options": [
+          "All exceptions are checked exceptions",
+          "All exceptions are unchecked exceptions",
+          "Java has no exception handling",
+          "Exceptions can be handled using try-catch blocks"
+        ],
+        "answer": "Exceptions can be handled using try-catch blocks"
+      },
+      {
+        "id": "java_question9",
+        "question": "What is the output of the following code?\n```java\nint x = 10;\nint y = 5;\nx %= y;\nSystem.out.println(x);\n```",
+        "options": [
+          "0",
+          "5",
+          "10",
+          "15"
+        ],
+        "answer": "0"
+      },
+      {
+        "id": "java_question10",
+        "question": "Which of the following is not a valid Java identifier?",
+        "options": [
+          "$myVar",
+          "my_Var",
+          "myVar123",
+          "123myVar"
+        ],
+        "answer": "123myVar"
+      },
+      {
+        "id": "java_question11",
+        "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a++);\n```",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "Error"
+        ],
+        "answer": "5"
+      },
+      {
+        "id": "java_question12",
+        "question": "Which of the following is used to read input from the user in Java?",
+        "options": [
+          "System.in",
+          "Console.read",
+          "Scanner",
+          "InputReader"
+        ],
+        "answer": "Scanner"
+      },
+      {
+        "id": "java_question13",
+        "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a + 2);\n```",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "7"
+      },
+      {
+        "id": "java_question14",
+        "question": "Which of the following is not a valid Java keyword?",
+        "options": [
+          "class",
+          "main",
+          "interface",
+          "abstract"
+        ],
+        "answer": "main"
+      },
+      {
+        "id": "java_question15",
+        "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a * 2);\n```",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "10"
+        ],
+        "answer": "10"
+      },
+      {
+        "id": "java_question16",
+        "question": "Which of the following is a valid method declaration in Java?",
+        "options": [
+          "void method()",
+          "method void()",
+          "method()",
+          "method(void)"
+        ],
+        "answer": "void method()"
+      },
+      {
+        "id": "java_question17",
+        "question": "What is the output of the following code?\n```java\nString s = null;\nSystem.out.println(s);\n```",
+        "options": [
+          "null",
+          "Error",
+          "Compilation error",
+          "Runtime error"
+        ],
+        "answer": "null"
+      },
+      {
+        "id": "java_question18",
+        "question": "Which of the following is a valid Java constructor?",
+        "options": [
+          "void constructor()",
+          "Constructor()",
+          "constructor(void)",
+          "None of the above"
+        ],
+        "answer": "None of the above"
+      },
+      {
+        "id": "java_question19",
+        "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(--a);\n```",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "Error"
+        ],
+        "answer": "4"
+      },
+      {
+        "id": "java_question20",
+        "question": "Which of the following is a valid method overriding rule in Java?",
+        "options": [
+          "Return type should be different",
+          "Method name should be different",
+          "Both method name and return type should be same",
+          "None of the above"
+        ],
+        "answer": "Both method name and return type should be same"
+      },
+      {
+        "id": "java_question21",
+        "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a / 2);\n```",
+        "options": [
+          "2",
+          "2.5",
+          "3",
+          "Error"
+        ],
+        "answer": "2"
+      },
+      {
+        "id": "java_question22",
+        "question": "Which of the following is used to define an abstract method in Java?",
+        "options": [
+          "abstract void method();",
+          "void abstract method();",
+          "void method() abstract;",
+          "method() abstract void;"
+        ],
+        "answer": "abstract void method();"
+      },
+      {
+        "id": "java_question23",
+        "question": "What is the output of the following code?\n```java\nString s = \"Hello\";\nSystem.out.println(s.length());\n```",
+        "options": [
+          "Hello",
+          "H",
+          "5",
+          "Error"
+        ],
+        "answer": "5"
+      },
+      {
+        "id": "java_question24",
+        "question": "Which of the following is used to convert a string to uppercase in Java?",
+        "options": [
+          "toUpperCase()",
+          "toUpper()",
+          "upperCase()",
+          "toUpperCaseCase()"
+        ],
+        "answer": "toUpperCase()"
+      },
+      {
+        "id": "java_question25",
+        "question": "What is the output of the following code?\n```java\nint[] arr = {1, 2, 3};\nSystem.out.println(arr[0]);\n```",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "Error"
+        ],
+        "answer": "1"
+      },
+      {
+        "id": "java_question26",
+        "question": "Which of the following is used to declare a variable constant in Java?",
+        "options": [
+          "const int x;",
+          "final int x;",
+          "static int x;",
+          "const int x = 5;"
+        ],
+        "answer": "final int x;"
+      },
+      {
+        "id": "java_question27",
+        "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a += 2);\n```",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "7"
+      },
+      {
+        "id": "java_question28",
+        "question": "Which of the following is not a valid Java data type?",
+        "options": [
+          "int",
+          "float",
+          "double",
+          "string"
+        ],
+        "answer": "string"
+      },
+      {
+        "id": "java_question29",
+        "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a -= 2);\n```",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "3"
+      },
+      {
+        "id": "java_question30",
+        "question": "Which of the following is used to allocate memory dynamically in Java?",
+        "options": [
+          "malloc",
+          "calloc",
+          "new",
+          "delete"
+        ],
+        "answer": "new"
+      },
+      {
+        "id": "java_question31",
+        "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a * 2);\n```",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "10"
+        ],
+        "answer": "10"
+      },
+      {
+        "id": "java_question32",
+        "question": "Which of the following is not a valid Java keyword?",
+        "options": [
+          "class",
+          "interface",
+          "extends",
+          "method"
+        ],
+        "answer": "method"
+      },
+      {
+        "id": "java_question33",
+        "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a / 2);\n```",
+        "options": [
+          "2",
+          "2.5",
+          "3",
+          "Error"
+        ],
+        "answer": "2"
+      },
+      {
+        "id": "java_question34",
+        "question": "Which of the following is used to define a package in Java?",
+        "options": [
+          "package",
+          "namespace",
+          "module",
+          "lib"
+        ],
+        "answer": "package"
+      },
+      {
+        "id": "java_question35",
+        "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a % 2);\n```",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "Error"
+        ],
+        "answer": "1"
+      },
+      {
+        "id": "java_question36",
+        "question": "Which of the following is used to define a class in Java?",
+        "options": [
+          "class",
+          "Class",
+          "struct",
+          "Class()"
+        ],
+        "answer": "class"
+      },
+      {
+        "id": "java_question37",
+        "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a++);\n```",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "Error"
+        ],
+        "answer": "5"
+      },
+      {
+        "id": "java_question38",
+        "question": "Which of the following is not a valid Java identifier?",
+        "options": [
+          "myVar",
+          "_myVar",
+          "$myVar",
+          "123myVar"
+        ],
+        "answer": "123myVar"
+      },
+      {
+        "id": "java_question39",
+        "question": "What is the output of the following code?\n```java\nString s = null;\nSystem.out.println(s);\n```",
+        "options": [
+          "null",
+          "Error",
+          "Compilation error",
+          "Runtime error"
+        ],
+        "answer": "null"
+      },
+      {
+        "id": "java_question40",
+        "question": "Which of the following is used to define a constant in Java?",
+        "options": [
+          "const",
+          "final",
+          "static",
+          "var"
+        ],
+        "answer": "final"
+      },
+      {
+        "id": "java_question41",
+        "question": "What is the output of the following code?\n```java\nint x = 5;\nSystem.out.println(++x);\n```",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "Error"
+        ],
+        "answer": "6"
+      },
+      {
+        "id": "java_question42",
+        "question": "Which of the following is a valid Java access modifier?",
+        "options": [
+          "private",
+          "friendly",
+          "protected",
+          "personal"
+        ],
+        "answer": "protected"
+      },
+      {
+        "id": "java_question43",
+        "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a += 2);\n```",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "7"
+      },
+      {
+        "id": "java_question44",
+        "question": "Which of the following is used to define a constructor in Java?",
+        "options": [
+          "void constructor()",
+          "Constructor()",
+          "constructor(void)",
+          "None of the above"
+        ],
+        "answer": "None of the above"
+      },
+      {
+        "id": "java_question45",
+        "question": "What is the output of the following code?\n```java\nint[] arr = {1, 2, 3};\nSystem.out.println(arr[0]);\n```",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "Error"
+        ],
+        "answer": "1"
+      },
+      {
+        "id": "java_question46",
+        "question": "Which of the following is used to declare an interface in Java?",
+        "options": [
+          "interface",
+          "Interface",
+          "intf",
+          "inter"
+        ],
+        "answer": "interface"
+      },
+      {
+        "id": "java_question47",
+        "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a -= 2);\n```",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "3"
+      },
+      {
+        "id": "java_question48",
+        "question": "Which of the following is used to declare a method in Java?",
+        "options": [
+          "method",
+          "Method",
+          "void method()",
+          "None of the above"
+        ],
+        "answer": "None of the above"
+      },
+      {
+        "id": "java_question49",
+        "question": "What is the output of the following code?\n```java\nint a = 5;\nSystem.out.println(a * 2);\n```",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "10"
+        ],
+        "answer": "10"
+      },
+      {
+        "id": "java_question50",
+        "question": "Which of the following is a valid Java keyword?",
+        "options": [
+          "package",
+          "pkg",
+          "pack",
+          "pkg()"
+        ],
+        "answer": "package"
+      }
+    ],
+    "Python": [
+      {
+        "id": "python_question1",
+        "question": "What is the output of the following code?\n```python\nx = 5\nprint(++x)\n```",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "Error"
+        ],
+        "answer": "Error"
+      },
+      {
+        "id": "python_question2",
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+          "func",
+          "def",
+          "define",
+          "function"
+        ],
+        "answer": "def"
+      },
+      {
+        "id": "python_question3",
+        "question": "What is the output of the following code?\n```python\nx = 5\nprint(x++)\n```",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "Error"
+        ],
+        "answer": "Error"
+      },
+      {
+        "id": "python_question4",
+        "question": "Which of the following is not a valid data type in Python?",
+        "options": [
+          "int",
+          "float",
+          "boolean",
+          "long"
+        ],
+        "answer": "long"
+      },
+      {
+        "id": "python_question5",
+        "question": "What is the output of the following code?\n```python\nx = 5\nprint(x ** 2)\n```",
+        "options": [
+          "5",
+          "10",
+          "25",
+          "Error"
+        ],
+        "answer": "25"
+      },
+      {
+        "id": "python_question6",
+        "question": "Which of the following is used to define a comment in Python?",
+        "options": [
+          "//",
+          "#",
+          "/* */",
+          "<!-- -->"
+        ],
+        "answer": "#"
+      },
+      {
+        "id": "python_question7",
+        "question": "What is the output of the following code?\n```python\nx = 5\ny = 2\nprint(x // y)\n```",
+        "options": [
+          "2.5",
+          "2",
+          "3",
+          "Error"
+        ],
+        "answer": "2"
+      },
+      {
+        "id": "python_question8",
+        "question": "Which of the following is used to check if two values are equal in Python?",
+        "options": [
+          "==",
+          "=",
+          "===",
+          "!="
+        ],
+        "answer": "=="
+      },
+      {
+        "id": "python_question9",
+        "question": "What is the output of the following code?\n```python\nx = 5\nprint(x % 2)\n```",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "Error"
+        ],
+        "answer": "1"
+      },
+      {
+        "id": "python_question10",
+        "question": "Which of the following is used to define a list in Python?",
+        "options": [
+          "()",
+          "{}",
+          "[]",
+          "<>"
+        ],
+        "answer": "[]"
+      },
+      {
+        "id": "python_question11",
+        "question": "What is the output of the following code?\n```python\nx = 5\nprint(x * 2)\n```",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "10"
+        ],
+        "answer": "10"
+      },
+      {
+        "id": "python_question12",
+        "question": "Which of the following is used to define a tuple in Python?",
+        "options": [
+          "()",
+          "{}",
+          "[]",
+          "<>"
+        ],
+        "answer": "()"
+      },
+      {
+        "id": "python_question13",
+        "question": "What is the output of the following code?\n```python\nx = 5\nprint(x / 2)\n```",
+        "options": [
+          "2",
+          "2.5",
+          "3",
+          "Error"
+        ],
+        "answer": "2.5"
+      },
+      {
+        "id": "python_question14",
+        "question": "Which of the following is used to define a dictionary in Python?",
+        "options": [
+          "{}",
+          "()",
+          "[]",
+          "<>"
+        ],
+        "answer": "{}"
+      },
+      {
+        "id": "python_question15",
+        "question": "What is the output of the following code?\n```python\nx = 5\nprint(x += 2)\n```",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "Error"
+        ],
+        "answer": "Error"
+      },
+      {
+        "id": "python_question16",
+        "question": "Which of the following is used to define a set in Python?",
+        "options": [
+          "{}",
+          "()",
+          "[]",
+          "<>"
+        ],
+        "answer": "{}"
+      },
+      {
+        "id": "python_question17",
+        "question": "What is the output of the following code?\n```python\nx = 5\nprint(x -= 2)\n```",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "Error"
+        ],
+        "answer": "Error"
+      },
+      {
+        "id": "python_question18",
+        "question": "Which of the following is used to define a class in Python?",
+        "options": [
+          "class",
+          "Class",
+          "struct",
+          "Class()"
+        ],
+        "answer": "class"
+      },
+      {
+        "id": "python_question19",
+        "question": "What is the output of the following code?\n```python\nx = 5\nprint(x *= 2)\n```",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "10"
+        ],
+        "answer": "Error"
+      },
+      {
+        "id": "python_question20",
+        "question": "Which of the following is used to define a function in Python?",
+        "options": [
+          "func",
+          "def",
+          "define",
+          "function"
+        ],
+        "answer": "def"
+      },
+      {
+        "id": "python_question21",
+        "question": "What is the output of the following code?\n```python\nx = 5\nprint(x /= 2)\n```",
+        "options": [
+          "2",
+          "2.5",
+          "3",
+          "Error"
+        ],
+        "answer": "Error"
+      },
+      {
+        "id": "python_question22",
+        "question": "Which of the following is used to define a comment in Python?",
+        "options": [
+          "//",
+          "#",
+          "/* */",
+          "<!-- -->"
+        ],
+        "answer": "#"
+      },
+      {
+        "id": "python_question23",
+        "question": "What is the output of the following code?\n```python\nx = 5\ny = 2\nprint(x //= y)\n```",
+        "options": [
+          "2.5",
+          "2",
+          "3",
+          "Error"
+        ],
+        "answer": "Error"
+      },
+      {
+        "id": "python_question24",
+        "question": "Which of the following is used to check if two values are equal in Python?",
+        "options": [
+          "==",
+          "=",
+          "===",
+          "!="
+        ],
+        "answer": "=="
+      },
+      {
+        "id": "python_question25",
+        "question": "What is the output of the following code?\n```python\nx = 5\nprint(x %= 2)\n```",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "Error"
+        ],
+        "answer": "Error"
+      },
+      {
+        "id": "python_question26",
+        "question": "Which of the following is used to define a list in Python?",
+        "options": [
+          "()",
+          "{}",
+          "[]",
+          "<>"
+        ],
+        "answer": "[]"
+      },
+      {
+        "id": "python_question27",
+        "question": "What is the output of the following code?\n```python\nx = 5\nprint(x ** 2)\n```",
+        "options": [
+          "5",
+          "10",
+          "25",
+          "Error"
+        ],
+        "answer": "25"
+      },
+      {
+        "id": "python_question28",
+        "question": "Which of the following is used to define a tuple in Python?",
+        "options": [
+          "()",
+          "{}",
+          "[]",
+          "<>"
+        ],
+        "answer": "()"
+      },
+      {
+        "id": "python_question29",
+        "question": "What is the output of the following code?\n```python\nx = 5\nprint(x * 2)\n```",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "10"
+        ],
+        "answer": "10"
+      },
+      {
+        "id": "python_question30",
+        "question": "Which of the following is used to define a dictionary in Python?",
+        "options": [
+          "{}",
+          "()",
+          "[]",
+          "<>"
+        ],
+        "answer": "{}"
+      },
+      {
+        "id": "python_question31",
+        "question": "What is the output of the following code?\n```python\nx = 5\nprint(x += 2)\n```",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "Error"
+        ],
+        "answer": "Error"
+      },
+      {
+        "id": "python_question32",
+        "question": "Which of the following is used to define a set in Python?",
+        "options": [
+          "{}",
+          "()",
+          "[]",
+          "<>"
+        ],
+        "answer": "{}"
+      },
+      {
+        "id": "python_question33",
+        "question": "What is the output of the following code?\n```python\nx = 5\nprint(x -= 2)\n```",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "Error"
+        ],
+        "answer": "Error"
+      },
+      {
+        "id": "python_question34",
+        "question": "Which of the following is used to define a class in Python?",
+        "options": [
+          "class",
+          "Class",
+          "struct",
+          "Class()"
+        ],
+        "answer": "class"
+      },
+      {
+        "id": "python_question35",
+        "question": "What is the output of the following code?\n```python\nx = 5\nprint(x *= 2)\n```",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "10"
+        ],
+        "answer": "Error"
+      },
+      {
+        "id": "python_question36",
+        "question": "Which of the following is used to define a function in Python?",
+        "options": [
+          "func",
+          "def",
+          "define",
+          "function"
+        ],
+        "answer": "def"
+      },
+      {
+        "id": "python_question37",
+        "question": "What is the output of the following code?\n```python\nx = 5\nprint(x /= 2)\n```",
+        "options": [
+          "2",
+          "2.5",
+          "3",
+          "Error"
+        ],
+        "answer": "Error"
+      },
+      {
+        "id": "python_question38",
+        "question": "Which of the following is used to define a comment in Python?",
+        "options": [
+          "//",
+          "#",
+          "/* */",
+          "<!-- -->"
+        ],
+        "answer": "#"
+      },
+      {
+        "id": "python_question39",
+        "question": "What is the output of the following code?\n```python\nx = 5\ny = 2\nprint(x //= y)\n```",
+        "options": [
+          "2.5",
+          "2",
+          "3",
+          "Error"
+        ],
+        "answer": "Error"
+      },
+      {
+        "id": "python_question40",
+        "question": "Which of the following is used to check if two values are equal in Python?",
+        "options": [
+          "==",
+          "=",
+          "===",
+          "!="
+        ],
+        "answer": "=="
+      },
+      {
+        "id": "python_question41",
+        "question": "What is the output of the following code?\n```python\nx = 5\nprint(x %= 2)\n```",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "Error"
+        ],
+        "answer": "Error"
+      },
+      {
+        "id": "python_question42",
+        "question": "Which of the following is used to define a list in Python?",
+        "options": [
+          "()",
+          "{}",
+          "[]",
+          "<>"
+        ],
+        "answer": "[]"
+      },
+      {
+        "id": "python_question43",
+        "question": "What is the output of the following code?\n```python\nx = 5\nprint(x ** 2)\n```",
+        "options": [
+          "5",
+          "10",
+          "25",
+          "Error"
+        ],
+        "answer": "25"
+      },
+      {
+        "id": "python_question44",
+        "question": "Which of the following is used to define a tuple in Python?",
+        "options": [
+          "()",
+          "{}",
+          "[]",
+          "<>"
+        ],
+        "answer": "()"
+      },
+      {
+        "id": "python_question45",
+        "question": "What is the output of the following code?\n```python\nx = 5\nprint(x * 2)\n```",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "10"
+        ],
+        "answer": "10"
+      },
+      {
+        "id": "python_question46",
+        "question": "Which of the following is used to define a dictionary in Python?",
+        "options": [
+          "{}",
+          "()",
+          "[]",
+          "<>"
+        ],
+        "answer": "{}"
+      },
+      {
+        "id": "python_question47",
+        "question": "What is the output of the following code?\n```python\nx = 5\nprint(x += 2)\n```",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6"
+      }
+    ]
+  }
 }

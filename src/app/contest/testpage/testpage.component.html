@@ -1,8 +1,8 @@
-<header class="testPageHeader bg-dark">
-  <app-timer class="d-flex justify-content-between"></app-timer>
+<header class="testPageHeader bg-dark contestHeader">
+  <app-timer class="d-flex justify-content-center align-items-center pt-1 gap-2"></app-timer>
 </header>
 <div class="testBody d-flex">
-  <app-question class="w-75" [randomSet]="randomSet" [currentQuestionIndex]="currentQuestionIndex" (numberClicked)="changeCurrentQuestionIndex($event)"></app-question>
-  <app-check-list class="w-25" [randomSet]="randomSet" [currentQuestionIndex] = "currentQuestionIndex" [totalNoOfQuestions]="totalNoOfQuestions" (numberClicked)="changeCurrentQuestionIndex($event)"></app-check-list>
+  <app-question class="w-75 contestLeft" [randomSet]="randomSet" [currentQuestionIndex]="currentQuestionIndex" (numberClicked)="changeCurrentQuestionIndex($event)"></app-question>
+  <app-check-list class="w-25 contestRight" [randomSet]="randomSet" [currentQuestionIndex] = "currentQuestionIndex" [totalNoOfQuestions]="totalNoOfQuestions" (numberClicked)="changeCurrentQuestionIndex($event)"></app-check-list>
 </div>
 

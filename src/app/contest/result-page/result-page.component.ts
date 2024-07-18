@@ -1,5 +1,6 @@
 import { Component, ElementRef, Input, ViewChild } from '@angular/core';
 import { ServicesService } from '../services/services.service';
+import { ConnectionService } from '../../services/connection.service';
 
 @Component({
   selector: 'app-result-page',
@@ -13,7 +14,7 @@ export class ResultPageComponent {
   @Input("randomSet")
   randomSet:any
 
-  constructor(private ss:ServicesService){
+  constructor(private ss:ServicesService,public cs:ConnectionService){
     this.ss.tc.subscribe((data:string)=>{
       if(data == "closed"){
         console.log("Test closed")

@@ -53,11 +53,23 @@ h2{
   top:10px;
   right:10px;
 }
-
+.contestLeft{
+  background-color:rgba(135, 207, 235, 0.699) ;
+  scrollbar-width: none;
+}
+.contestRight{
+  background-color:rgba(128, 128, 128, 0.253) ;
+}
+.contestHeader{
+  height: 10vh;
+}
 .carouselcheck{
   background-color: black;
   opacity: .9;
   padding: 0px !important;
+}
+.testBody{
+  height: 90vh;
 }
 .cardcheck{
   width: 100%;
@@ -89,7 +101,9 @@ svg{
     color: white;
   }
 }
-
+.reg{
+  width: 90% !important;
+}
 
 .cardimgcheck{
   background-color: rgba(0, 0, 0, 0.13);
@@ -99,7 +113,7 @@ svg{
 }
 .cards{
   box-shadow: 5px 5px 20px gray;
-  min-height: 460px;
+  margin:5px;
 }
 .select-course{
   &:hover{

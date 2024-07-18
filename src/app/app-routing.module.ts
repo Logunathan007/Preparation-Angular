@@ -3,6 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { SigninComponent } from './signin/signin.component';
 import { SignupComponent } from './signup/signup.component';
 import { loginAuthGuard } from './guards/login-auth.guard';
+import { DashboardComponent } from './dashboard/dashboard/dashboard.component';
+import { MaterialComponent } from './dashboard/material/material.component';
+import { HomeComponent } from './dashboard/home/home.component';
+import { TaketestComponent } from './taketest/taketest/taketest.component';
+import { ContestComponent } from './contest/contest/contest.component';
+import { TestpageComponent } from './contest/testpage/testpage.component';
 
 const routes: Routes = [
   {
@@ -15,18 +21,32 @@ const routes: Routes = [
   },
   {
     path:'dashboard',
-    loadChildren:()=> import('./dashboard/dashboard.module').then(m=>m.DashboardModule),
-    canActivate:[loginAuthGuard]
+    canActivate:[loginAuthGuard],
+    component:DashboardComponent,
+    children:[
+      {
+        path:"",
+        component:HomeComponent
+      },
+      {
+        path:"material",
+        component:MaterialComponent
+      },
+      {
+        path:"taketest",
+        component:TaketestComponent
+      },
+      {
+        path:"contest",
+        component:ContestComponent
+      },
+    ]
   },
   {
-    path:'dashboard/taketest',
-    loadChildren:()=> import('./taketest/taketest.module').then(m=>m.TaketestModule)
-  },
-  {
-    path:'dashboard/contest',
-    loadChildren:()=>import('./contest/contest.module').then(m=>m.ContestModule)
+    path:"dashboard/contest/testpage",
+    canActivate:[loginAuthGuard],
+    component:TestpageComponent
   }
-
 ];
 
 @NgModule({

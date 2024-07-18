@@ -1,10 +1,10 @@
-<div class="card cards" style="width: 18rem;">
+<div class="card cards mx:1" style="width: 12rem;">
   <div class="card-img-top cardimgdivcheck rounded-100">
-    <img class="card-img-top cardimgcheck rounded-100" [src]="getName()" alt="Card image cap" width="200px" height="250px">
+    <img class="card-img-top cardimgcheck rounded-100" [src]="getName()" alt="Card image cap" width="50px" height="150px">
   </div>
   <div class="card-body d-flex flex-column justify-content-between">
     <h5 class="card-title fw-bolder">{{data.name}}</h5>
-    <p class="card-text">{{data.description}}</p>
+    <p class="card-text">{{data.description.length >= 50 ? (data.description|slice:0:50)+'...':data.description}}</p>
     <a [href]="data.link" target="_blank" class="btn btn-info select-course">Get Started</a>
   </div>
 </div>

@@ -1,4 +1,4 @@
-import { ViewportScroller } from '@angular/common';
+
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { PageChangedEvent } from 'ngx-bootstrap/pagination';
 @Component({
@@ -13,12 +13,12 @@ export class DynamicPageComponent implements OnChanges{
   currentPage = 1;
   status = "ON";
 
-  @Input('datas')
-  datas:any[] = []
+  @Input('datass')
+  datas:any = []
 
   currentPageData:any[] = [];
 
-  totalNumberOfItems = this.datas.length
+  totalNumberOfItems = this.datas?.length
 
   ngOnChanges(changes: SimpleChanges): void {
     if(this.datas){

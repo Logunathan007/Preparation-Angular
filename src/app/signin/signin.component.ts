@@ -23,7 +23,7 @@ export class SigninComponent {
         this.fl = false;
         if(this.msg?.charAt(0) === 's')
           router.navigate(['dashboard']);
-      },3000)
+      },3000) 
       this.msgFormat = {
         type: (this.msg?.charAt(0) === 's')?'info':'danger',
         msg: this.msg?.substring(2)

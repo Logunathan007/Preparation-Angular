@@ -9,6 +9,10 @@ import { NotificationComponent } from './notification/notification.component';
 import { AlertModule } from 'ngx-bootstrap/alert';
 import { HttpClientModule } from '@angular/common/http';
 import { DashboardModule } from './dashboard/dashboard.module';
+import { CommonModule } from '@angular/common';
+import { ConnectionService } from './services/connection.service';
+import { TaketestModule } from './taketest/taketest.module';
+import { ContestModule } from './contest/contest.module';
 
 @NgModule({
   declarations: [
@@ -23,9 +27,13 @@ import { DashboardModule } from './dashboard/dashboard.module';
     ReactiveFormsModule,
     AlertModule.forRoot(),
     HttpClientModule,
+    CommonModule,
+    DashboardModule,
+    TaketestModule,
+    ContestModule,
     DashboardModule
   ],
-  providers: [],
+  providers: [ConnectionService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
