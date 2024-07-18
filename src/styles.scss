@@ -162,6 +162,26 @@ svg{
 .testPageHeader{
   // background-color: rgba(0, 0, 0, 0.747);
 }
-
+.checkListTop{
+  display: flex;
+  width: 90%;
+  padding: 10px;
+  flex-wrap: wrap;
+  margin:5px auto;
+  align-items: center;
+  justify-content: center;
+}
+.qnum{
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: lightgrey;
+  display: grid;
+  place-items: center;
+  font-weight: bolder;
+  border: 1px solid black;
+  cursor: pointer;
+}
 
 

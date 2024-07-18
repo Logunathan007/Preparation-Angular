@@ -15,7 +15,8 @@ export class ChoiseComponent {
   @Input("clickedId")
   clickedId:any
 
-  fl = 0
+  @Input("fl")
+  fl:boolean = false;
 
   @Output('id')
   id:EventEmitter<any> = new EventEmitter();

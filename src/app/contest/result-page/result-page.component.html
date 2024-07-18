@@ -1,0 +1,21 @@
+<button type="button" class="btn btn-primary w-100" (click)="staticModal.show()">End Test</button>
+
+<div class="modal fade" bsModal #staticModal="bs-modal" [config]="{backdrop: 'static'}"
+     tabindex="-1" role="dialog" aria-labelledby="dialog-static-name">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 id="dialog-static-name" class="modal-title pull-left">Result</h4>
+        <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="staticModal.hide()">
+          <span aria-hidden="true" class="visually-hidden">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5>Total number of questions : {{ tnq }}</h5>
+        <h5>Number of Questions attend : {{ nqa }}</h5>
+        <h5>Number of Questions correct : {{ nqc }}</h5>
+        <h5>Your got 100 out of {{ percentage }}</h5>
+      </div>
+    </div>
+  </div>
+</div>

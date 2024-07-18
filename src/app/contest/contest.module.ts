@@ -8,6 +8,8 @@ import { TimerComponent } from './timer/timer.component';
 import { QuestionComponent } from './question/question.component';
 import { ChoiseComponent } from './choise/choise.component';
 import { CheckListComponent } from './check-list/check-list.component';
+import { ResultPageComponent } from './result-page/result-page.component';
+import { ModalModule } from 'ngx-bootstrap/modal';
 
 const router:Routes = [
   {
@@ -26,11 +28,13 @@ const router:Routes = [
     TimerComponent,
     QuestionComponent,
     ChoiseComponent,
-    CheckListComponent
+    CheckListComponent,
+    ResultPageComponent
   ],
   imports: [
     CommonModule,
-    RouterModule.forChild(router)
+    RouterModule.forChild(router),
+    ModalModule.forRoot()
   ],
   providers:[
     ServicesService,

@@ -1,28 +1,26 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, DoCheck, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-question',
   templateUrl: './question.component.html',
   styleUrl: './question.component.scss'
 })
-export class QuestionComponent implements OnChanges{
+export class QuestionComponent implements DoCheck{
   id = "";
   selectedId(id:any){
     this.id = id;
-  }
-  funCall(){
-    console.log("Fun Called")
+    this.qdata.selectedOptionIndex = parseInt(""+id.charAt(id.length-1))
   }
   @Input("randomSet")
   randomSet:any = []
 
-  @Input("currentQuestion")
-  currentQuestion:number = 0
+  @Input("currentQuestionIndex")
+  currentQuestionIndex:number = 0
 
-  ngOnChanges(changes: SimpleChanges): void {
-      this.qdata = this.randomSet[this.currentQuestion]
+
+  ngDoCheck(): void {
+    this.qdata = this.randomSet[this.currentQuestionIndex]
   }
-
 
   qdata:any = {
     "id": "c_question1",
@@ -37,8 +35,11 @@ export class QuestionComponent implements OnChanges{
     "description": "C has 4 primary data types: int, float, char, and double."
   }
 
+  @Output("numberClicked")
+  indexChanged:EventEmitter<any> = new EventEmitter();
 
-
-  str:string = this.qdata.id || ""
-  num = this.str?.split("question").pop() || ""
+  questionNumberClicked(ind:any){
+    this.randomSet[ind].visited = true;
+    this.indexChanged.emit(ind)
+  }
 }

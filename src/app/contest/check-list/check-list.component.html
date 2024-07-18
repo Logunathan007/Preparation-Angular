@@ -1,1 +1,31 @@
-<p>check-list works!</p>
+<div class="container-fluid checkListTop">
+
+  <div class="qnum"
+    *ngFor="let o of randomSet;let ind = index;"
+    [ngClass]="{'bg-success':o?.selectedOptionIndex !== -1 && currentQuestionIndex !== ind,'bg-danger':o?.selectedOptionIndex === -1 && o?.visited && currentQuestionIndex !== ind,'bg-info':currentQuestionIndex === ind}"
+    (click)="questionNumberClicked(ind)"
+    >
+     <!-- [ngClass]="{'bg-success':(currentQuestionIndex !== ind && o?.saved),'bg-warning':(currentQuestionIndex !== ind && !o?.visited),'bg-danger':(currentQuestionIndex !== ind && o?.visited && !o?.saved)}" -->
+    {{o?.questionNo}}
+  </div>
+
+  <div class="w-75 mx-auto d-flex align-items-center mt-2">
+    <app-result-page class="w-100" [totalNoOfQuestions]="totalNoOfQuestions" [randomSet]="randomSet"></app-result-page>
+    <!-- <button class="btn btn-primary w-100">End Test</button> -->
+  </div>
+</div>
+<div class="sample">
+  <div class="w-75 mx-auto d-flex align-items-center">
+    <div class="qnum  bg-info">
+    </div><span class="fw-bold">Current</span>
+  </div>
+  <div class="w-75 mx-auto d-flex align-items-center">
+    <div class="qnum bg-success">
+    </div><span class="fw-bold">Saved</span>
+  </div>
+  <div class="w-75 mx-auto d-flex align-items-center">
+    <div class="qnum bg-danger">
+    </div><span class="fw-bold">Not Saved</span>
+  </div>
+</div>
+
