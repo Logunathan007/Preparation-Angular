@@ -7,8 +7,10 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class ServicesService {
   questions_list:any = {};
+  testStatus = "open";
 
-  public bs:BehaviorSubject<any> = new BehaviorSubject(this.questions_list);;
+  public bs:BehaviorSubject<any> = new BehaviorSubject(this.questions_list);
+  public tc:BehaviorSubject<string> = new BehaviorSubject("open");
 
   constructor(private http:HttpClient) {
     http.get("http://localhost:3000/questions").subscribe((data)=>{
@@ -18,5 +20,9 @@ export class ServicesService {
   }
   emit(){
     this.bs.next(this.questions_list);
+  }
+  testStatusChanged(msg:string){
+    this.testStatus = msg;
+    this.tc.next(msg);
   }
 }

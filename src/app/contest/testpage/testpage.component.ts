@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy } from '@angular/core';
 import { ServicesService } from '../services/services.service';
 
 @Component({
@@ -6,11 +6,12 @@ import { ServicesService } from '../services/services.service';
   templateUrl: './testpage.component.html',
   styleUrl: './testpage.component.scss'
 })
-export class TestpageComponent {
+export class TestpageComponent implements OnDestroy{
   questionSet:any = []
   randomSet:any = []
   totalNoOfQuestions = 10
   obj = {}
+
   constructor(private ss:ServicesService){
     this.ss.bs.subscribe((data:any)=>{
       data['C']?.forEach((element:any) => {
@@ -31,7 +32,7 @@ export class TestpageComponent {
       while(this.randomSet.length != 10){
         var ind = Math.floor(Math.random()*this.questionSet.length);
         if(nums.indexOf(ind) == -1){
-          if(this.questionSet.length != 0){
+          if(this.questionSet?.length != 0){
             var obj = this.questionSet[ind]
             obj['questionNo'] = i+1
             obj['selectedOptionIndex'] = -1;
@@ -58,4 +59,8 @@ export class TestpageComponent {
     this.randomSet[ind].visited = true;
   }
 
+  ngOnDestroy(): void {
+    console.log("Test Destroyed");
+    this.ss.testStatusChanged('closed');
+  }
 }

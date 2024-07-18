@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ServicesService } from '../services/services.service';
 
 @Component({
   selector: 'app-contest',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './contest.component.scss'
 })
 export class ContestComponent {
-
+  constructor(public ss:ServicesService){}
+  letsStartTest(){
+    this.ss.testStatusChanged("open")
+  }
 }
