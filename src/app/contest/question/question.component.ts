@@ -7,6 +7,7 @@ import { Component, DoCheck, EventEmitter, Input, Output } from '@angular/core';
 })
 export class QuestionComponent implements DoCheck{
   id = "";
+
   selectedId(id:any){
     this.id = id;
     this.qdata.selectedOptionIndex = parseInt(""+id.charAt(id.length-1))

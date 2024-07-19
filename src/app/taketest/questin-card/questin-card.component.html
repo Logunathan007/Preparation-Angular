@@ -4,7 +4,7 @@
   </h4>
   <div class="choiseBox">
     <app-choise *ngFor="let ch of qdata['options'];let i=index;" [ch]="ch" [clickedId]="id"  [ans]="qdata.answer" (id)="selectedId($event)" [idIs] = "qdata.id+'_'+i"></app-choise>
-  </div> 
+  </div>
   <div class="descriptionBox">
     <p class="d-inline-flex gap-1 mt-2">
       <a class="btn btn-primary" data-bs-toggle="collapse" [href]="'#'+qdata['id']" role="button" aria-expanded="false">
@@ -13,7 +13,7 @@
     </p>
     <div class="collapse choiselabel " [id]="qdata['id']">
       <div class="card card-body fst-normal p-1">
-        {{qdata.description}}
+        {{(qdata.description == undefined)?'Answer is : '+qdata['answer']:qdata['description']}}
       </div>
     </div>
   </div>

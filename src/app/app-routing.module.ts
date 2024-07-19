@@ -23,6 +23,7 @@ const routes: Routes = [
     path:'dashboard',
     canActivate:[loginAuthGuard],
     component:DashboardComponent,
+    // loadChildren:()=>import('./dashboard/dashboard.module').then(m=>m.DashboardModule),
     children:[
       {
         path:"",
