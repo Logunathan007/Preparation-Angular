@@ -9,21 +9,28 @@ import { MaterialComponent } from './material/material.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CourseCardComponent } from './course-card/course-card.component';
 import { GetDataService } from './services/get-data.service';
+import { TaketestComponent } from '../taketest/taketest/taketest.component';
+import { ContestComponent } from '../contest/contest/contest.component';
 
-// const routes:Routes = [
-//   {
-//     path:"",
-//     component:DashboardComponent
-//   },
-//   {
-//     path:"home",
-//     component:CarouselComponent
-//   },
-//   {
-//     path:"material",
-//     component:MaterialComponent
-//   }
-// ]
+const router:Routes = [
+  {
+    path:"",
+    component:HomeComponent
+  },
+  {
+    path:"material",
+    component:MaterialComponent
+  },
+  {
+    path:"taketest",
+    component:TaketestComponent
+  },
+  {
+    path:"contest",
+    // component:ContestComponent
+    loadChildren:()=>import('../contest/contest.module').then((m)=>m.ContestModule)
+  },
+]
 
 @NgModule({
   declarations: [
@@ -36,11 +43,8 @@ import { GetDataService } from './services/get-data.service';
   ],
   imports: [
     CommonModule,
-    RouterModule,
+    RouterModule.forChild(router),
     CarouselModule.forRoot()
-  ],
-  exports:[
-    DashboardComponent
   ],
   providers:[
     GetDataService,

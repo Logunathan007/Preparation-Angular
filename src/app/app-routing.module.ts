@@ -23,31 +23,31 @@ const routes: Routes = [
     path:'dashboard',
     canActivate:[loginAuthGuard],
     component:DashboardComponent,
-    // loadChildren:()=>import('./dashboard/dashboard.module').then(m=>m.DashboardModule),
-    children:[
-      {
-        path:"",
-        component:HomeComponent
-      },
-      {
-        path:"material",
-        component:MaterialComponent
-      },
-      {
-        path:"taketest",
-        component:TaketestComponent
-      },
-      {
-        path:"contest",
-        component:ContestComponent
-      },
-    ]
+    loadChildren:()=>import('./dashboard/dashboard.module').then(m=>m.DashboardModule),
+    // children:[
+    //   {
+    //     path:"",
+    //     component:HomeComponent
+    //   },
+    //   {
+    //     path:"material",
+    //     component:MaterialComponent
+    //   },
+    //   {
+    //     path:"taketest",
+    //     component:TaketestComponent
+    //   },
+    //   {
+    //     path:"contest",
+    //     component:ContestComponent
+    //   },
+    // ]
   },
-  {
-    path:"dashboard/contest/testpage",
-    canActivate:[loginAuthGuard],
-    component:TestpageComponent
-  }
+  // {
+  //   path:"dashboard/contest/testpage",
+  //   canActivate:[loginAuthGuard],
+  //   component:TestpageComponent
+  // }
 ];
 
 @NgModule({
