@@ -21,6 +21,9 @@
         <li class="nav-item" (click)="this.cs.changeNavActive('contest')">
           <a [ngClass]="{'nav-link':true,'active':navActive[0]==='contest'}" [routerLink]="['contest']">Contest</a>
         </li>
+        <li class="nav-item" (click)="this.cs.changeNavActive('rank')">
+          <a [ngClass]="{'nav-link':true,'active':navActive[0]==='rank'}" [routerLink]="['rank']">Rank</a>
+        </li>
       </ul>
     </div>
   </div>

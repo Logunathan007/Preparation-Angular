@@ -13,13 +13,13 @@ import { CommonModule } from '@angular/common';
 import { ConnectionService } from './services/connection.service';
 import { TaketestModule } from './taketest/taketest.module';
 import { ContestModule } from './contest/contest.module';
-
+import { RankListModule } from './rank-list/rank-list.module';
 @NgModule({
   declarations: [
     AppComponent,
     SigninComponent,
     SignupComponent,
-    NotificationComponent,
+    NotificationComponent
   ],
   imports: [
     BrowserModule,
@@ -31,6 +31,7 @@ import { ContestModule } from './contest/contest.module';
     DashboardModule,
     TaketestModule,
     ContestModule,
+    RankListModule,
     DashboardModule
   ],
   providers: [ConnectionService],

@@ -18,7 +18,7 @@
         <h5>Number of Questions correct : {{ nqc }}</h5>
         <h5>Your got 100 out of {{ percentage }}</h5>
       </div>
-      <button routerLink="rank">Rank List</button>
+      <button [routerLink]="['/dashboard','rank']" class="btn btn-info m-1 rankbtn" (click)="this.cs.changeNavActive('rank')">Rank List</button>
     </div>
   </div>
 </div>
